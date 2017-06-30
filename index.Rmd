@@ -15,6 +15,6 @@ github-repo: rstudio/ACE500MicroSolutions
 
 Remember the key to learning the material in ACE 500. Do not consult these solutions until after you have spend *hours* toiling and thinking about the problems. If you do not heed this warning the exams will be painful. 
 
-## Errata 
+## Report and Error or Typo 
 
 If you find a typo or mistake, please report it to me by email. If you are a [Github](https://github.com) user, submit at 'issue'. Better yet, download the markdown text file from [the github repository](https://github.com/mindymallory/ACE500MicroSolutions) and fix and send back to me!  

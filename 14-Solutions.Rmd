@@ -1,0 +1,161 @@
+# Chapter 14 Solutions {-}
+
+*Contributed by Anna Fairbain 2016*
+
+14.2  
+  a.  
+    \begin{align*}
+P & = 70 - Q\\
+AC & = MC = 6\\
+\pi & = P(Q)Q - C(Q)\\
+\pi & = (70 - Q)Q - 6*Q\\
+\pi & = 70Q - Q^2 - 6Q\\
+
+\end{align*}
+
+
+FOC: 
+
+\begin{align*}
+\frac{\partial\pi}{\partial Q} & = 70 - 2Q - 6\\
+0 & = 70 - 2Q - 6\\
+2Q & = 64\\
+\end{align*}
+
+Then, solving for the required variables.
+
+\begin{align*}
+Q^* & = 32\\
+P^* & = 70 - 32\\
+P^*& = \$38\\
+\pi & = 38*32 - 6*32\\
+\pi & = \$1,024\\
+\end{align*}
+  
+    
+    b. This time with quadratic costs.   
+      
+    \begin{align}
+\pi & = [70 - Q]Q - [.25Q^2 + 5Q + 300]\\
+\pi & = 70Q - Q^2 - 0.25Q^2 - 5Q - 300\\
+\pi & = -\frac{5}{4}Q^2 + 65Q - 300\\
+\frac{\partial\pi}{\partial Q} & = -\frac{5}{2}Q + 65\\
+0 & = -\frac{5}{2}Q + 65\\
+\end{align}
+
+Then, solving for the required variables.
+
+\begin{align*}
+Q^* & = 26\\
+P^* & = 70 - 26\\
+P^* & = \$44\\
+\pi & = 44*26 - [0.25(26)^2 + 5*26 + 300]\\
+\pi & = \$545\\
+\end{align*}
+
+    c.  This time with cubic cost.  
+    
+\begin{align*}
+\pi & = [70 - Q]Q - [0.0133Q^3 - 5Q + 250]\\
+\pi & = 70Q - Q^2 - 0.0133Q^3 + 5Q - 250]\\
+\frac{\partial\pi}{\partial Q} & = 70 - 2Q - 0.0399Q^2 + 5\\
+0 & = 70 - 2Q - 0.0399Q^2 + 5 \\
+\end{align*}
+
+Using the quadratic formula to solve. 
+
+\begin{align*}
+Q & = \frac{2 \pm \sqrt{4 - 4(-0.0399)75}}{2(-0.0399)}\\
+Q^* & = 25.02\\
+P^* & = $44.98\\
+\pi & = $792.188
+\end{align*}
+
+Note: If you do not carry a lot of decimals or calculate exactly, your $Q^*$ will seem way off.
+
+\begin{align*}
+P & = 70 - 25.02\\
+P^* & = \$44.98\\
+\pi & = 44.98*25.02 - [0.0133*25.02^3 - 5*25.02 + 250]\\
+\pi & = \$ 792.19\\
+\end{align*}
+
+14.5  
+    a. 
+No advertising. Just like a typical monopolist's problem...  
+Then, the demand function is just:  
+
+\begin{align*}
+Q & = 20 - P
+\end{align*}   
+
+And inverse demand is given by  
+
+\begin{align*}
+P & = 20 - Q\\
+\end{align*}  
+
+So profit can be written as  
+
+\begin{align*}
+\pi & = [20 - Q]Q - [10Q + 15]\\
+\pi & = 20Q - Q^2 - 10Q - 15\\
+\pi & = -Q^2 + 10Q - 15\\
+\frac{\partial\pi}{\partial Q} & = -2Q +10 \\
+0 & = -2Q +10\\
+\end{align*}  
+
+Solving for the problem's variables  
+
+\begin{align*}
+Q^* & = 5\\
+P & = 20 - 5\\
+P^* & = 15\\
+\pi & = 15*5 - [10*5 + 15]\\
+\pi & = \$10\\
+\end{align*}
+
+
+    b.   
+    
+Now, demand is $Q=(20-P)(1 + 0.1A - 0.1A^2)$ and revenue is $P(20 - P)(1 + 0.1A - 0.1A^2)$.  
+
+\begin{align*}
+MR_P & = (20 - 2P)(1 + 0.1A - 0.1A^2)\\
+\end{align*}
+  
+Not sure here...  
+Maximize the advertising portion $1 + 0.1A - 0.1A^2$ to give the biggest "boost" to revanue. This happens at $A = 0.5$. 
+
+then demand is given by 
+
+\begin{align*}
+1.03Q & = (20 - P)\\
+P & = (20 - 1.03Q)
+\end{align*}
+
+Now find $MR$ and set $MR = MC$ and you've solved it. 
+
+
+14.8  
+a.  
+A lump sum subsidy does not affect the monopolist's decision at the margin. More specifically, the lump sum subsidy doesn't enter the first order condition, and therefore does not affect the firm's optimal choice:  
+
+\begin{align} 
+\pi_{LS} & = P(Q)Q - C(Q) + S \rightarrow  S = lump sum subsidy
+\end{align}
+
+FOC:  
+
+\begin{align}
+P(Q) + P'(Q)Q - C'(Q) = 0 \rightarrow  No S appears
+\end{align}  
+
+b.  
+A per unit subsidy lowers the marginal cost of producing each unit.
+\vspace{20mm}  
+Insert graph here.  
+\vspace{20mm}  
+So, net total social gain is the same under competition and the subsidized monopoly (although it involves a transfer from taxpayers to the monopolist). 
+c.  
+Stumped here, still thinking.

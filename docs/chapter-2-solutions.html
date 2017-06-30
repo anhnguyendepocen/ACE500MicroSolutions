@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ACE 500 Homework Solutions</title>
+  <meta name="description" content="ACE 500 Homework Solutions">
+  <meta name="generator" content="bookdown 0.3.16 and GitBook 2.6.7">
+
+  <meta property="og:title" content="ACE 500 Homework Solutions" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="rstudio/ACE500MicroSolutions" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="ACE 500 Homework Solutions" />
+  
+  
+  
+
+
+
+<meta name="date" content="2017-06-30">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">ACE 500 Homework Solutions</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#errata"><i class="fa fa-check"></i><b>0.1</b> Errata</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="chapter-2-solutions.html"><a href="chapter-2-solutions.html"><i class="fa fa-check"></i>Chapter 2 Solutions</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ACE 500 Homework Solutions</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="chapter-2-solutions" class="section level1 unnumbered">
+<h1>Chapter 2 Solutions</h1>
+<ol style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(U(x,y)=4x^2+3y^2\)</span>
+<ol style="list-style-type: lower-alpha">
+<li><p>Calculate <span class="math inline">\(\frac{\partial U}{\partial x}\)</span>, and <span class="math inline">\(\frac{\partial U}{\partial y}\)</span></p>
+<p><span class="math inline">\(\frac{\partial U}{\partial x}=8x\)</span>, <span class="math inline">\(\frac{\partial U}{\partial y}=6y\)</span></p></li>
+<li><p>Evaluate these partial derivatives ad <span class="math inline">\(x=1\)</span> and <span class="math inline">\(y=2\)</span></p>
+<p><span class="math inline">\(\frac{\partial U}{\partial x}\vert_{(1,2)}=8\)</span>, <span class="math inline">\(\frac{\partial U}{\partial y}\vert_{(1,2)}=12\)</span></p></li>
+<li><p>Write the total differential for <span class="math inline">\(U\)</span>.</p>
+<p><span class="math inline">\(dU=\frac{\partial U}{\partial x}*dx + \frac{\partial U}{\partial y}*dy\)</span> <span class="math inline">\(dU=8x*dx + 6y*dy\)</span></p></li>
+<li><p>Calculate <span class="math inline">\(\frac{dy}{dx}\)</span> for <span class="math inline">\(dU=0\)</span>; that is, what is the implied trade-off between <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> holding <span class="math inline">\(U\)</span> constant.</p>
+<p><span class="math inline">\(0=8xdx + 6ydy\)</span><br />
+<span class="math inline">\(-8xdx = 6ydy\)</span><br />
+<span class="math inline">\(-\frac{4}{3}\frac{x}{y} = \frac{dy}{dx}\)</span></p>
+<p>A note about Markdown and Latex. If you want to align the equations at the equal sign, you need a bit more straight Latex.</p></li>
+</ol></li>
+</ol>
+<pre><code>        $$
+        \begin{align}
+                                0 &amp; = 8xdx + 6ydy  
+                            -8xdx &amp; = 6ydy  
+          -\frac{4}{3}\frac{x}{y} &amp; = \frac{dy}{dx}
+        \end{align}
+        $$
+</code></pre>
+<span class="math display">\[\begin{align}
+                                0 &amp; = 8xdx + 6ydy  \\
+                            -8xdx &amp; = 6ydy   \\
+          -\frac{4}{3}\frac{x}{y} &amp; = \frac{dy}{dx}\\  
+\end{align}\]</span>
+<ol start="5" style="list-style-type: lower-alpha">
+<li><p>Show <span class="math inline">\(U=16\)</span> when <span class="math inline">\(x = 1\)</span> and <span class="math inline">\(y = 2\)</span>.<br />
+<span class="math inline">\(U(1,2) = 4*1^2 + 3*2^2 = 4 + 12 = 16\)</span></p></li>
+<li><p>In what ratio must <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> change to hold <span class="math inline">\(U\)</span> constant at 16 for movements away from <span class="math inline">\(x=1\)</span>.<br />
+<span class="math inline">\(\frac{dy}{dx}=-\frac{4}{3}*\frac{1}{2} = - \frac{2}{3}\)</span></p></li>
+<li><p>More generally, what is the slope of the <span class="math inline">\(U=16\)</span> contour line for this function? What is the slope of that line?</p>
+<p>Contour line is an ellipse.<br />
+<span class="math inline">\(16 = 4x^2 + 3y^2 \Rightarrow y = \pm \frac{2}{\sqrt 3}\sqrt{4-x^2}\)</span></p>
+<p>Slope<br />
+<span class="math inline">\(\frac{dy}{dx} = \frac{1}{\sqrt{3}}(4-x^2)^{-\frac{1}{2}}(-2x)\)</span></p></li>
+</ol>
+<p>2.2 Suppose a firm’s total revenues depend on the amount produced <span class="math inline">\((q)\)</span> according to the function</p>
+<p><span class="math display">\[R = 70q - q^2\]</span></p>
+<p>Total costs also depend on <span class="math inline">\(q\)</span>:</p>
+<p><span class="math display">\[C=q^2 + 30q + 100\]</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><p>What level of output should the firm produce in order to maximize profits <span class="math inline">\((R-C)\)</span>? What will profits be?</p>
+<p><span class="math display">\[\pi = 70q - q^2-30q^2-100\]</span></p>
+<p>Need to maximize profit with respect to <span class="math inline">\(q\)</span>.</p>
+<p><span class="math display">\[\frac{d\pi}{dq} = 70 - 4q - 30 = 40 - q\]</span></p>
+<p>Set first order condition equal to 0.</p>
+<p><span class="math display">\[40 - 4q = 0\]</span></p>
+<p><span class="math display">\[\frac{40}{4} = q\]</span></p>
+<p><span class="math display">\[10 = q\]</span></p>
+<p>Profit at <span class="math inline">\(\pi\)</span> max</p>
+<p><span class="math display">\[\pi\vert_{q=10} = 700 - 100 - 100 - 300 - 100\]</span></p></li>
+<li><p>Show that the second-order conditions for a maximum are satisfied at the output level found in part (a)?</p>
+<p><span class="math display">\[\frac{d^2\pi}{dq^2} = -4 &lt; 0 \]</span></p>
+<p>Second derivative is negative, so the function is concave, and therefore local optimum is a maximum.</p></li>
+<li><p>Does the solution calculated here obey the “marginal revenue equals marginal cost” rule?</p>
+<p>Yes. <span class="math inline">\(MR = 70 - 2q\)</span> and <span class="math inline">\(MC = 2q + 30\)</span>.</p>
+<p><span class="math display">\[MR = MC \Rightarrow 70 - 2q = 2q + 30 \Rightarrow 40 - 4q = 0\]</span></p>
+<p>Which is the first order condition we solved to get our solution.</p></li>
+</ol>
+<p>2.3 Suppose that <span class="math inline">\(f(x,y)=xy\)</span>. Find the maximum value for <span class="math inline">\(f\)</span> if <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> are constrained to sum to 1. Solve this problem two ways: by substitution and by using the Lagrangian method.</p>
+<ol style="list-style-type: lower-alpha">
+<li>By substitution</li>
+</ol>
+<p>Substitute <span class="math inline">\(y = 1-x\)</span> into the objective function so that <span class="math inline">\(f(x) = x(1-x) = x - x^2\)</span>. Then maximize <span class="math inline">\(f\)</span> with respect to <span class="math inline">\(x\)</span>.</p>
+<p>FOC: <span class="math inline">\(1 - 2x = 0\)</span><br />
+<span class="math inline">\(\Rightarrow 1 = 2x\)</span><br />
+<span class="math inline">\(\Rightarrow \frac{1}{2} = x\)</span></p>
+<p>Then <span class="math inline">\(y = 1 - \frac{1}{2} = \frac{1}{2}\)</span><br />
+and <span class="math inline">\(f(\frac{1}{2},\frac{1}{2}) = \frac{1}{4}\)</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>By the Lagrangian Method</li>
+</ol>
+<p><span class="math display">\[\max_{x, y, \lambda} xy + \lambda[1-x-y]\]</span></p>
+<p>FOCs:</p>
+<p><span class="math inline">\(f_1: y - \lambda = 0\)</span><br />
+<span class="math inline">\(f_2: x- \lambda = 0\)</span><br />
+<span class="math inline">\(\lambda: 1 - x - y = 0\)</span></p>
+<p>Using <span class="math inline">\(f_1\)</span> and <span class="math inline">\(f_2\)</span> by putting <span class="math inline">\(\lambda\)</span> on one side and taking the ratio of the first order conditions.</p>
+<p><span class="math inline">\(y = \lambda\)</span><br />
+<span class="math inline">\(x = \lambda\)</span></p>
+<p><span class="math inline">\(\Rightarrow y = x\)</span></p>
+<p>Now taking <span class="math inline">\(y = x\)</span> and putting it into the FOC for <span class="math inline">\(\lambda\)</span> we get<br />
+<span class="math inline">\(1 - x - x = 0 \Rightarrow \frac{1}{2} = y\)</span> and <span class="math inline">\(\frac{1}{2} = x\)</span> and <span class="math inline">\(\frac{1}{2} = \lambda\)</span></p>
+<p>Finally, <span class="math inline">\(f(\frac{1}{2},\frac{1}{2}) = \frac{1}{4}\)</span></p>
+<p>2.4 The dual problem to the one described in Problem 2.3 is</p>
+<p><span class="math display">\[\textbf{minimize } x + y\]</span> <span class="math display">\[\textbf{subject to } xy = 0.25\]</span></p>
+<p>Solve this problem using the Lagrangian technique. Then compare the value you get for the Lagrangian multiplier to the value you got in 2.3. Explain the relationship between the two solutions.</p>
+<p><span class="math display">\[\min_{x, y, \lambda} x+y + \lambda[0.25 - xy]\]</span></p>
+<p>FOC:</p>
+<p><span class="math inline">\(f_1: 1 - \lambda y = 0\)</span><br />
+<span class="math inline">\(f_2: 1 - \lambda x = 0\)</span><br />
+<span class="math inline">\(f_{\lambda}: 0.25 - xy = 0\)</span></p>
+<p>Combine the first two equations as follows.</p>
+<p><span class="math inline">\(1 = \lambda y\)</span><br />
+<span class="math inline">\(1 = \lambda x\)</span></p>
+<p>Take the ratio of the left hand side and the ratio of the right hand side and obtain</p>
+<p><span class="math inline">\(1 = \frac{y}{x}\)</span> or <span class="math inline">\(x = y\)</span>. Then take this and substitute into the FOC of <span class="math inline">\(\lambda\)</span>.</p>
+<p><span class="math inline">\(0.25 = x^2\)</span> <span class="math inline">\(\Rightarrow x = \frac{1}{2}\)</span></p>
+<p>Then, since <span class="math inline">\(x = y\)</span>, <span class="math inline">\(y = \frac{1}{2}\)</span>, and taking both these results and plugging into the <span class="math inline">\(f_1\)</span> FOC we find that <span class="math inline">\(\lambda = 2\)</span>.</p>
+<p>Comparing this solution with the solution from 2.3 we find that <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> are the same. However, <span class="math inline">\(\lambda\)</span> of the problem in 2.4 is <span class="math inline">\(\frac{1}{\lambda_{2.3}}\)</span>.</p>
+<p>The intuition of this is that <span class="math inline">\(\lambda\)</span>, often referred to as the shadow value, can be understood as</p>
+<p><span class="math display">\[\lambda = \frac{\text{Marginal Benefit }x_i}{\text{Marginal Cost }x_i}\]</span> for all <span class="math inline">\(i\)</span>.</p>
+<p>For the when two problems are ‘dual’ the marginal benefit in one becomes the marginal cost in the other.</p>
+<p>2.5 The height of a ball that is thrown straight up with a certain force is a function of the time (t) from which it is released given by <span class="math inline">\(f(t) = -0.5gt^2 + 40t\)</span> (Where <span class="math inline">\(g\)</span> is a constant determined by gravity).</p>
+<ol style="list-style-type: lower-alpha">
+<li>How does the value of <span class="math inline">\(t\)</span> at which the height of the ball is at a maximum depend on the parameter <span class="math inline">\(g\)</span>?</li>
+</ol>
+<p>When we maximize <span class="math inline">\(f\)</span> with respect to <span class="math inline">\(t\)</span>, we will find that it is a function of <span class="math inline">\(g\)</span>.</p>
+<p><span class="math inline">\(\frac{df}{dt} = -gt + 40 = 0\)</span><br />
+<span class="math inline">\(t^*(g) = \frac{40}{g}\)</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Use your answer to part (a) to describe how the maximum height changes as the parameter <span class="math inline">\(g\)</span> changes.</li>
+</ol>
+<p>Plug optimal <span class="math inline">\(t\)</span> into <span class="math inline">\(f(.)\)</span>. <span class="math inline">\(f(g) = -\frac{1}{2}g\frac{40}{g}^2 + 40\frac{40}{g} = \frac{800}{g}\)</span>.</p>
+<p>How does the max change as <span class="math inline">\(g\)</span> changes? Take the derivative.</p>
+<p><span class="math inline">\(f&#39;(g) = -\frac{800}{g^2}\)</span>.</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>By the envelope theorem, we can take our optimal <span class="math inline">\(t\)</span> from part a, and plug directly into <span class="math inline">\(f(t^*(g),g)\)</span>, then take the derivative of this directly with respect to <span class="math inline">\(g\)</span>.</li>
+</ol>
+<p><span class="math inline">\(f(t^*(g), g) = -0.5g(\frac{40}{g})^2 + 40(\frac{40}{g})\)</span><br />
+<span class="math inline">\(f(t^*(g), g) = -0.5(\frac{40^2}{g}) + \frac{40^2}{g}\)</span><br />
+<span class="math inline">\(f(t^*(g), g) = 0.5\frac{40^2}{g}\)</span></p>
+<p>So, <span class="math inline">\(f&#39;(t^*(g), g) = -0.5(\frac{40^2}{g^2}) = -\frac{800}{g^2}\)</span></p>
+<p>The same as in part b.</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li><span class="math inline">\(f(32.1) - f(31.9) = \frac{800}{32.1} - \frac{800}{31.9} = -0.156\)</span></li>
+</ol>
+<p>2.6 A simple way to model the construction of an oil tanker is to start with a large rectangular sheet of steel that is x feet wide and 3x feet long. Now cut a smaller square that is <span class="math inline">\(t\)</span> feet on a side out of each corner of the larger sheet and fold up and weld the sides of the steel sheet to make a tray like structure with no top.</p>
+<p>[Figure Here]</p>
+<ol style="list-style-type: lower-alpha">
+<li>show that the volume of oil that can be held by this tray is given by: <span class="math inline">\(V = t(x - 2t)(3x - 2t) = 3tx^2 - 8t^2x + 4t^3\)</span>.</li>
+</ol>
+<p>Since volume is height X width X length, we calculate each of these and multiply.</p>
+<p>Length: <span class="math inline">\(3x - 2t\)</span> Width: <span class="math inline">\(x - 2t\)</span> height: <span class="math inline">\(t\)</span></p>
+<p>So, <span class="math inline">\(v = t(x - 2t)(3x - 2t) = 3tx^2 - 8t^2x + 4t^3\)</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>How should t be chosen so as to maximize <span class="math inline">\(V\)</span> for any given value of x?</li>
+</ol>
+<p><span class="math display">\[\max_{t} 3tx^2 - 8t^2x + 4t^3\]</span></p>
+<p>FOC: <span class="math inline">\(3x^2 - 16tx + 12t^2 = 0\)</span></p>
+<p>Solve with the quadratic formula for t.</p>
+<p><span class="math inline">\(t = \frac{16x \pm \sqrt{(-16x)^2 - 4*12*3*x^2}}{2*12}\)</span><br />
+<span class="math inline">\(t = x(\frac{4 \pm \sqrt{7}}{6})\)</span></p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li><p>No, there is not a value of x that maximizes volume. If you increase x, volume will increase as well.</p></li>
+<li><p>Now that steel is constrained so that <span class="math inline">\(1,000,000 = 3x^2 - 4t^2\)</span>, we still know that <span class="math inline">\(t\)</span> and <span class="math inline">\(x\)</span> have to be related according to the solution in b, but the <span class="math inline">\(t\)</span> and <span class="math inline">\(x\)</span> are now bound to the constraint. We can visualize the solution as a guide. The constraint is an ellipse, and only the portions with positive <span class="math inline">\(t\)</span> and <span class="math inline">\(x\)</span> are relevant to this problem.</p></li>
+</ol>
+<p>[Figure Here]</p>
+<p>So, if we plug the expression for <span class="math inline">\(t\)</span> that we found in b. into the constraint, we can solve. Note that since both <span class="math inline">\(4 \pm \sqrt{y}\)</span> are positive we will get two solutions here.</p>
+<p><span class="math display">\[1,000,000 = 3x^2 - 4\left[x\left(\frac{4 \pm \sqrt{7}}{6}\right)\right]^2\]</span></p>
+<p><span class="math display">\[1,000,000 = x^2\left[ 3 - 4\left(\frac{4 \pm \sqrt{7}}{6} \right)\right]\]</span></p>
+<p><span class="math display">\[\Rightarrow x = 724.08\]</span> and plugging this into the relationship from b. <span class="math display">\[t = 801.92\]</span></p>
+<p>or…</p>
+<p><span class="math display">\[\Rightarrow  x = 598.02\]</span> and plugging this into the relationship from b. <span class="math display">\[t = 134.98\]</span> when using the - of the <span class="math inline">\(\pm\)</span>.</p>
+<p>However, if you plug the first into the formula for <span class="math inline">\(V\)</span>, you get a negative number; that must be a local minimum. So, the solution to the constrained problem is <span class="math inline">\(x = 598.02\)</span> and <span class="math inline">\(t = 134.98\)</span>.</p>
+<p>2.7 Consider the following constrained maximization problem:</p>
+<p><span class="math display">\[\textbf{maximize  } y = x_1 + 5\ln{x_2}\]</span> <span class="math display">\[\textbf{subject to  } k - x_1 - x_2 = 0\]</span></p>
+<p>where <span class="math inline">\(k\)</span> is a constant.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Show that if <span class="math inline">\(k = 10\)</span> this problem can be solved as one involving only equality constraints.</li>
+</ol>
+<p><span class="math inline">\(k = 10 \Rightarrow\)</span></p>
+<p><span class="math display">\[\max x_1 + 5\ln{10-x_1}\]</span> by setting <span class="math inline">\(x_2 = 10 - x_1\)</span>.</p>
+<p>FOC: <span class="math inline">\(1 - \frac{5}{10 - x_1} = 0\)</span></p>
+<p><span class="math inline">\(\Rightarrow x_1 = 5\)</span> and <span class="math inline">\(x_2 = 10\)</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li><p>If <span class="math inline">\(k = 4\)</span> then the FOC becomes <span class="math inline">\(1 - \frac{5}{4 - x_1} = 0\)</span> and this solves to <span class="math inline">\(x_1 = -1\)</span> and <span class="math inline">\(x_2 = 5\)</span>.</p></li>
+<li><p>If the <span class="math inline">\(x&#39;s\)</span> must be non-negative, then <span class="math inline">\(x_1 = 0\)</span> and the constraint defines the <span class="math inline">\(x_2\)</span>. In this case, <span class="math inline">\(x_2 = 4\)</span>.</p></li>
+<li><p>If <span class="math inline">\(k = 20\)</span> then the FOC becomes <span class="math inline">\(1 - \frac{5}{20 - x_1} = 0\)</span> and the solution is <span class="math inline">\(x_1 = 15\)</span> and <span class="math inline">\(x_2 = 5\)</span>.</p></li>
+</ol>
+<p>2.8 Suppose a firm has a marginal cost function given by <span class="math inline">\(MC(q) = q+1\)</span>.</p>
+<ol style="list-style-type: lower-alpha">
+<li>What is the firm’s total cost function,? Explain why total costs are known only up to a constant of integration, which represents fixed costs.</li>
+</ol>
+<p>You find total cost by integrating the marginal cost, but of course, you can only recover this up to an unknown constant. Since the portion of the total cost function that is constant is the fixed cost - by definition - this is the fixed cost.</p>
+<p><span class="math display">\[\int q + 1 dq\]</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Firms produce where price, <span class="math inline">\(p\)</span>, equals <span class="math inline">\(MC(q)\)</span>. How much will the firm produce when <span class="math inline">\(p = 15\)</span>? Now assume that the firm just breaks even. What are the fixed costs, <span class="math inline">\(FC\)</span>?</li>
+</ol>
+<p><span class="math inline">\(15 = q + 1\)</span> <span class="math inline">\(\Rightarrow q = 14\)</span>.</p>
+<p>If just breaking even, then <span class="math inline">\(15*14 - (0.5q^2 + q + FC) = 0\)</span></p>
+<p><span class="math inline">\(\Rightarrow FC = 98\)</span></p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>How much will profits for this firm increase if price increases to $20?</li>
+</ol>
+<p>First, <span class="math inline">\(20 = q + 1\)</span> so <span class="math inline">\(q = 19\)</span>. Then profits are given by <span class="math inline">\(20*19 - (0.5*19^2 + 19 +98) = 82.50\)</span>.</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Show that if we continue to assume profit maximization, then this firm’s profit can be expressed solely as a function of the price it receives.</li>
+</ol>
+<p>Then we may as well substitute <span class="math inline">\(q = P - 1\)</span> from the <span class="math inline">\(P = MC(q)\)</span> condition.</p>
+<p>Then we have <span class="math inline">\(\pi(P) = P(P-1) - (0.5(P-1)^2 + (P-1) + 98)\)</span></p>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>Show that the increase in profits from <span class="math inline">\(P=15\)</span> to <span class="math inline">\(P=20\)</span> can be calculated in two ways: (i) directly from the equation derived in part d; and by integrating the inverse marginal cost function <span class="math inline">\(\left[ MC^{-1}(P) = P-1\right]\)</span>.</li>
+</ol>
+<p>(i). Clearly <span class="math inline">\(\pi(20) - \pi(15) = \$82.50\)</span> yields the change in profit.</p>
+<p>(ii). <span class="math inline">\(\int_{15}^{20} P-1dP = (0.5P^2 - P)\vert_{15}^{20} = \$82.50\)</span></p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/2-Solutions.Rmd",
+"text": "Edit"
+},
+"download": ["ACE500-Homework.pdf", "ACE500-Homework.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    if (location.protocol !== "file:" && /^https?:/.test(script.src))
+      script.src  = script.src.replace(/^https?:/, '');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

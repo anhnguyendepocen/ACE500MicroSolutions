@@ -1,4 +1,5 @@
 book_filename: "ACE500-Homework"
+output_dir: "docs"
 language:
   ui:
     chapter_name: "Chapter "

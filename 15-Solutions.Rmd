@@ -2,8 +2,8 @@
 
 *Contributed by Anna Fairbain 2016*
 
-\section*{15.1}
-\subsection*{(a)}
+15.1  
+a.  
 \begin{align*}
 P & = 150 - Q\\
 \pi & = (150 - Q)Q - 0\\
@@ -11,6 +11,9 @@ P & = 150 - Q\\
 \frac{\partial\pi}{\partial Q} & = 150 - 2Q\\
 0 & = 150 - 2Q\\
 \end{align*}
+
+Solving for Q we get the solutions:  
+
 \begin{align*}
 Q^* & = 75\\
 P^* & = 150 - 75\\
@@ -19,20 +22,27 @@ P^*& = \$75\\
 \pi & = \$5,625\\
 \end{align*}
 
-\subsection*{(b)}
+b.  
+
+
 \begin{align*}
 Firm 1: \pi & = [150 - q_1 - q_2]q_1\\
 \pi & = 150q_1 - q_1^2 - q_2q_1\\
 \frac{\partial\pi}{\partial q_1} & = 150 - 2q_1 - q_2\\
 0 & = 150 - 2q_1 - q_2 (1)\\
 \end{align*}
+
+
 \begin{align*}
 Firm 2: \pi & = [150 - q_1 - q_2]q_2\\
 \pi & = 150 - q_1q_2 - q_2^2\\
 \frac{\partial\pi}{\partial q_2} & = 150 - q_1 - 2q_2\\
 0 & = 150 - q_1 - 2q_2 (2)\\
 \end{align*}
-Solve the system of best response equations 1 and 2. Multiply equation 2 by -2 and add to equation 1.\\
+
+
+Solve the system of best response equations 1 and 2. Multiply equation 2 by -2 and add to equation 1.    
+
 \begin{align*}
 0 & = -150 + 3q_2\\
 q_2* & = 50\\
@@ -42,23 +52,28 @@ P^* & = \$50\\
 \pi_i & = \$2,500\\
 \end{align*}
 
-\subsection*{(c)}
-In Bertrand Nash equilibrium, P = MC, which is zero in this case:
+c.  
+
+In Bertrand Nash equilibrium, P = MC, which is zero in this case:  
+
 \begin{align*}
 P & = 0 \rightarrow Q = 150\\
 q_1 & = q_2 = \frac{Q}{2} = 75\\
 \pi_1 & = \pi_2 = 0\\
 \end{align*}
 
-\section*{15.2}
-\subsection*{(a)}
-Monopolist
+15.2  
+a.  
+
+Monopolist  
+
 \begin{align*}
 \pi & = (a - bQ)Q - C*Q\\
 \pi & = aQ - bQ^2 - CQ\\
 \frac{\partial\pi}{\partial Q} & = a - 2bQ - c \\
 0 & = a - 2bQ - c\\
 \end{align*}
+
 \begin{align*}
 Q^* & = \frac{a - c}{2b}\\
 P & = a - b(\frac{a - c}{2b})\\
@@ -67,50 +82,60 @@ P^* & = \frac{a}{2} + \frac{c}{2}\\
 \pi & = (\frac{a + c}{2})(\frac{a - c}{2b}) - c(\frac{a - c}{2b})\\
 \end{align*}
 
-\subsection*{(b)}
+b.  
+
 \begin{align*}
 \pi_1 & = [a - b(q_1 + q_2)]q_1 - Cq_1\\
 \pi_1 & = aq_1 - bq_1^2 -bq_1q_2 - Cq_1\\
 \frac{\partial \pi_1}{\partial q_1} & = a - 2bq_1 - bq_2 - C\\
 0 & = a - 2bq_1 - bq_2 - C\\
 \end{align*}
+
 \begin{align*}
 \pi_2 & = [a - b(q_1 + q_2)]q_2 - Cq_2\\
 \pi_2 & = aq_2 - bq_1q_2 - bq_2^2 - Cq_2\\
 \frac{\partial \pi_2}{\partial q_2} & = a - bq_1 - 2bq_2 - C\\
 0 & = a - bq_1 - 2bq_2 - C\\
 \end{align*}
+
 \begin{align*}
 0 & = a - 2bq_1 - bq_2 - C\\
 0 & = -2a + 2bq_1 + 4bq_2 + 2C\\
 0 & = -a + 3bq_2 + C\\
 q_2^* & = \frac{a -c}{3b}\\
 \end{align*}
+
 \begin{align*}
 0 & = a - bq_1 - 2b(\frac{a-c}{3b}) - c\\
 0 & = a - bq_1 - \frac{2}{3}(a - c) - c\\
 0 & = \frac{1}{3}a - bq_1 - \frac{1}{3}c\\
 q_1^* & = \frac{a - c}{3b}\\
 \end{align*}
+
 \begin{align*}
 P & = a - b\Big[\frac{2(a - c)}{3b}\Big]\\
 P & = a - \frac{2}{3}(a - c)\\
 P^* & = \frac{1}{3}a + \frac{2}{3}c\\
 \end{align*}
+
 \begin{align*}
 Firm profit: \pi & = \frac{(a+2c)}{3}\frac{(a-c)}{3b} - \frac{c(a - c)}{3b}\\
 Industry profit: \pi & = 2\Big[\frac{(a+2c)}{3}\frac{(a-c)}{3b} - \frac{c(a - c)}{3b}\Big]\\
 Market output: Q & = q_1 + q_2 = \frac{2(a-c)}{3b}\\
 \end{align*}
 
-\subsection*{(c)}
-Nash equilibrium is:\\
+c.  
+
+Nash equilibrium is:  
+
 \begin{align*}
 p_1 & = p_2 = C\\
 C & = a - bQ\\
 Q & = \frac{a - c}{b}\\
 \end{align*}
-And firms split output, so:\\
+
+And firms split output, so:  
+
 \begin{align*}
 q_1 & = q_2 = \frac{a -c}{2b}\\
 \pi_1 & = 0 \\
@@ -118,42 +143,54 @@ q_1 & = q_2 = \frac{a -c}{2b}\\
 \pi & = 0 \\
 \end{align*}
 
-\subsection*{(d)}
+d.  
+
 \begin{align*}
 \pi_i & = [a - b(q_1 + q_2 + ... + q_n)]q_i - Cq_i = 0\\
-\frac{\partial \pi_i}{\partial q_i} & = a - bq_1 - bq_2 - ... - bq_i_-_1 - bq_i_+_1 - bq_n - 2bq_i - C = 0\\
+\frac{\partial \pi_i}{\partial q_i} & = a - bq_1 - bq_2 - ... - bq_{i-1} - bq_{i+1} - bq_n - 2bq_i - C = 0\\
 0 & = a - \Sigma bq_i - bq_i - c\\
 0 & = a - bq_i(n + 1) - c\\
 \end{align*}
+
+Solving for $q^*_i$:
+
 \begin{align*}
 q_i^* & = \frac{a - c}{b(n + 1)}\\
 Q & = (\frac{n}{n + 1})(\frac{a - c}{b})\\
 Q^* & = a - \frac{n}{n + 1}(a - c)\\
 \end{align*}
+
 \begin{align*}
 Firm \pi & = \Big[a - (\frac{n}{n+1})(a - c)\Big]\frac{(a - c)}{b(n + 1)} - \frac{c(a - c)}{b(n + 1)}\\
 Industry \pi & = n\Bigg[\bigg(a - (\frac{n}{n+1})(a - c)]\bigg)\frac{(a - c}{b(n + 1)} - \frac{c(a - c)}{b(n + 1)}\Bigg]\\
 \end{align*}
 
-\subsection*{(e)}
-Set n$=$1\\
+e.  
+
+Set $n=1$  
+
 \begin{align*}
 P & = a - \frac{1}{2}(a - c)\\
 P^* & = \frac{a - c}{2}\\
 q^* & = \frac{1}{2}(\frac{a - c}{b})\\
 \end{align*}
-Set n$=$2\\
+
+Set $n=2$   
+
 \begin{align*}
 P & = a - \frac{2}{3}(a - c)\\
 P^* & = \frac{a - 2c}{3}\\
 q^* & = \frac{a - c}{3b}\\
 \end{align*}
-Set n$=\infty$\\
+
+Set $n=\infty$  
+
 \begin{align*}
 P & = a - 1(a - c)\\
 P^* & = c\\
 Q & = (\frac{n}{n+1})(\frac{a - c}{b})\\
 Q^* & = 1(\frac{a - c}{b})\\
 \end{align*}
-Notice that when you set n $= \infty$, the result gets you perfect competition.\\
-Even more remarkable, only 2 firms gets you to competitive outcome in the Bertrand model.\\
+
+Notice that when you set $n = \infty$, the result gets you perfect competition.  
+Even more remarkable, only 2 firms gets you to competitive outcome in the Bertrand model.

@@ -1,0 +1,83 @@
+# Chapter 3 Solutions {-}
+
+3.1  
+
+a.  
+
+$U(x,y) = 3x+y$
+
+\begin{align*}
+U_1 & = 3x+y \\
+ y & = U_1 - 3x \\
+\end{align*}
+
+Then using $MRS = - \left. \frac{\partial y}{\partial x} \right|_{U = constant}$
+
+and we have $MRS = -(-3) = 3$, which is a constant and not decreasing. 
+
+b.  
+
+$U(x,y) = \sqrt{xy}$  
+
+Since utility is un affected by a monotonic increasing transformation, we can square it and evaluate $U(x,y) = xy$ instead since the math will be a little easier.   
+
+
+\begin{align*}
+U_1 & = xy \\
+ y & = \frac{U_1}{x} \\
+\end{align*}
+
+Then the $MRS = -\frac{-U_1}{x^2} = \frac{U_1}{x^2}$.
+
+Since $MRS$ clearly decreases as $x$ increases, the indifference curves are convex. 
+
+c.  
+
+$U(x,y) = \sqrt{x} + y$  
+
+then $y = U_1 - \sqrt{x}$ and the $MRS = -(-\frac{1}{2}x^{-\frac{1}{2}}) = \frac{1}{2\sqrt{x}}$.
+
+Clearly this $MRS$ decreases with $x$ so yes these indifference curves are convex. 
+
+d.   
+
+$U(x,y) = \sqrt{x^2 - y^2}$  
+
+Then, 
+
+\begin{align*}
+U_1 & = \sqrt{x^2 - y^2}\\
+U^2_1 & = x^2 - y^2 \\
+y^2 & = x^2 - U^2_1 \\
+y & = \sqrt{x^2 - U^2_1}
+\end{align*}
+
+
+And then finding the $MRS$,  
+
+\begin{align*}
+MRS & = -( \frac{1}{\sqrt{2(x^2 - U^2_1)}}2x)
+\end{align*}
+
+Yes, these indifference curves decrease as x increases, but this is a tricky question because this is not a proper utility curve to begin with. 
+
+**To check out these and other indifference curves see [desmos.com/calculator](https://www.desmos.com/calculator)**
+
+![a-d indifference curves](images\3_1.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -181,11 +181,15 @@ and so now we know the full utiilty function.
 
 3.10  
 
-a. Does not depend on $\alpha + \beta = 1$. To see this, suppose $\alpha + \beta \neq 1$. Then since preferences are indifferent to a monotonic transformation, sustitute $\alpha = \frac{\alpha}{\alpha + \beta}$ now $\alpha + \beta = 1$ (go ahead and check it!).  
+a. Does not depend on $\alpha + \beta = 1$. To see this, suppose $\alpha + \beta \neq 1$. Then since preferences are indifferent to a monotonic transformation, sustitute $\alpha = \frac{\alpha}{\alpha + \beta}$ now $\alpha + \beta = 1$ (go ahead and check it!).    
 
 
 
+b.  If $y=x$ then $MRS=\frac{\alpha}{\beta}$ so if $\alpha>\beta$ then $MRS>1$. 
 
+Intuition: The relative size of $\alpha$ to $\beta$ says the extent to which you prefer $x$ to $y$.   
+
+c. $MRS = \frac{\alpha}{\beta}\frac{(y-_0)}{(x-x_0)}$. Not homothetic since you can't express as ratio of $x$ to $y$. 
 
 
 

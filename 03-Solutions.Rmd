@@ -211,7 +211,7 @@ b.  Note from a that the MRS is decreasing in $x$, so the function is quasi-conc
 c.  $y=e^{-x+U_1}$, where $U_1$ is an arbitrary constant.  
 
 d. $\frac{\partial U}{\partial x} = 1$  and   
-$\frac{\partial U}{\partial y} = \frac{1}{y}  
+$\frac{\partial U}{\partial y} = \frac{1}{y}$  
 
 Notice that the marginal utility of $x$ is constant, so buying more of it doesn't contribute extra utility. Check out what happens as we increase income in the figure above. The equilibrium $y$ quantity increases, but the equilibrium $x$ quantity does not. If you don't have a good feel for it yet, print a couple indifference curves drawn with the [desmos calculator](https://www.desmos.com/calculator) and draw the tangent budget lines. You should see the same optimal $x$ value.   
 

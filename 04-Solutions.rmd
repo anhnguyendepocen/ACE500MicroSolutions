@@ -1,0 +1,107 @@
+# Chapter 4 Solutions {-}
+
+4.1   
+
+a. The utility function, $U(t,s)=\sqrt{ts}$, is really just Cobb-Douglass utility with $\alpha = 0.5$ and $\beta = 0.5$, so using the solution we derived in the notes,   
+
+$$t^* = \frac{I}{2p_t}$ and $s^* = \frac{I}{2p_s}$$. 
+
+Substituting in for $I= 1, p_t = 0.10,$ and $p_s = 0.25$, we find the solution, $t^* = 5,$ and $s^* = 2$.  
+
+b. Indirect utility is useful here.  
+
+$$V(p_t, p_s, I) = \frac{I}{2p_t^{0.5}p_s^{0.5}}$$  
+
+Increase income by $k$ to achieve same utility level. To find, we solve for $k$ in the following equation,  
+
+$$V(0.40, 0.25, 1+k) = V(0.10, 0.25, 1)$$,
+
+or in plain English, solve for $k$ such that the utility achieved under the new prices and additional income is the same as the utility achieved with the old prices and income. 
+
+Solve:  
+
+\begin{align*}
+\frac{1+k}{2*0.40^{0.5}*0.25^{0.5}} = \frac{1}{2*0.10^{0.5}*0.25^{0.5}} \\ 
+k = \frac{0.40^{0.5}*0.25^{0.5}}{0.10^{0.5}*0.25^{0.5}} - 1 = $1
+\end{align*}
+
+His mother should send \$2, a \$1 increase.   
+
+4.2  
+
+a.  $w_F^* = \frac{\alpha}{\alpha + \beta} \frac{I}{p_F}$, and $w_C^* = \frac{\beta}{\alpha + \beta} \frac{I}{p_C}$  
+
+Substitute in the parameters given in the problem.  
+
+\begin{align*}
+w_F^* = \frac{2}{3} \frac{600}{40} \\
+ = 10
+\end{align*} 
+
+\begin{align*}
+w_C^* = \frac{1}{3} \frac{600}{8} \\
+ = 25
+\end{align*}  
+
+b. California wine purchased stays the same, but now French wine purchased is,  
+
+\begin{align*}
+w_F^* = \frac{2}{3} \frac{600}{20} \\
+ = 20
+\end{align*}  
+
+c.  
+
+Because the French wine is now cheaper she can buy more for the same income and achieve higher utility. To put a monetary value on it, check how much she would be willing to reduce her income in order to face the new (lower) prices. 
+
+$$V(20, 8, 600-k) = V(40, 8, 600)$$,  
+
+she is willing to reduce income by as much as $k$ to get the new lower price.   
+
+\begin{align*}
+\left( \frac{2}{3} \right) ^{\frac{2}{3}} \left( \frac{1}{3} \right) ^{\frac{1}{3}} \frac{600-k}{20^{\frac{2}{3}}8^{\frac{1}{3}}} = \left( \frac{2}{3} \right) ^{\frac{2}{3}} \left( \frac{1}{3} \right) \frac{600}{40^{\frac{2}{3}}8^{\frac{1}{3}}}
+\end{align*}
+
+solving for $k$  
+
+\begin{align*}
+600 - k = \frac{600*20^{\frac{2}{3}}8^{\frac{1}{3}}}{40^{\frac{2}{3}}8^{\frac{1}{3}}} \\
+k = 600 - \frac{600}{2^{\frac{2}{3}}} \\
+k = 222.02
+\end{align*}  
+
+An alternative monetary measure would be to check how much she would be willing to accept (increase income) to keep the old prices. This is equivalent to the concepts if equivalent variation and compensating variation that are presented in chapter 5.  
+
+4.3  
+
+a. 
+
+\begin{align*}
+\frac{ \partial U}{\partial c}:  20 - 2c = 0 \\ 
+\Rightarrow c^* = 10  \\
+\frac{ \partial U}{\partial b}:  20 - 2b = 0 \\
+\Rightarrow b^* = 3
+\end{align*}
+ 
+ 
+b.  
+
+In this problem his consumption of $c$ and $b$ is constrained so that $c+b = 5$. We can use a Lagrangian function to solve the constrained optimization problem.  
+
+$$\mathscr{L} = 20c - c^2 + 18b - b^2 + \lambda[5-c-b]$$
+
+
+The first order conditions of the Lagrangian problem are:  
+
+
+\begin{align*}
+20 - 2c - \lambda = 0 \\
+18 - 6b - \lambda = 0 \\
+5 -c -b = 0
+\end{align*} 
+
+solving for $b$ and $c$ gives $b = 1$ and $c = 4$. 
+
+
+
+

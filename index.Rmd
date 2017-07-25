@@ -17,4 +17,4 @@ Remember the key to learning the material in ACE 500. Do not consult these solut
 
 Report an Error or Typo 
 
-If you find a typo or mistake, please report it to me by email. If you are a [Github](https://github.com) user, submit at 'issue'. Better yet, download the markdown text file from [the github repository](https://github.com/mindymallory/ACE500MicroSolutions) and fix and send back to me!  
+If you find a typo or mistake, please report it to me by email. If you are a [Github](https://github.com) user, submit an 'issue'. Better yet, download the markdown text file from [the github repository](https://github.com/mindymallory/ACE500MicroSolutions) and fix and send back to me!  

@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2017-07-24">
+<meta name="date" content="2017-07-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -171,6 +171,106 @@ k &amp;= 222.02
 5 -c -b &amp;= 0
 \end{align*}\]</span>
 <p>solving for <span class="math inline">\(b\)</span> and <span class="math inline">\(c\)</span> gives <span class="math inline">\(b = 1\)</span> and <span class="math inline">\(c = 4\)</span>.</p>
+<p>4.4</p>
+<ol style="list-style-type: lower-alpha">
+<li>Maximising <span class="math inline">\(U(x+y)= x^2+y^2\)</span> won’t alter the results because MRS is unchanged under a monotonit increasing transformation.</li>
+</ol>
+<p><span class="math display">\[\mathscr{L} = x^2 + y^2 +\lambda[50-3x-4y]\]</span></p>
+<p>The first order conditions of the Lagrangian problem are:</p>
+<span class="math display">\[\begin{align*}
+2x - 3\lambda &amp;= 0 \\
+2y - 4\lambda &amp;= 0 \\
+50 - 3x - 4y &amp; = 0
+\end{align*}\]</span>
+Combining eqns 1 and 2, <span class="math inline">\(\frac{x}{y} = \frac{3}{4}\)</span>. Substituting in to equation 3, the budget line, we get:<br />
+
+<span class="math display">\[\begin{align*}
+50 &amp;= 3 \left( \frac{3}{4}y  \right) + 4y \\
+50 &amp;= \frac{9y}{4} + 4y \\
+50 &amp;= \frac{25y}{4} \\
+\end{align*}\]</span>
+<p>So, <span class="math inline">\(y = 8\)</span> and <span class="math inline">\(x = 6\)</span>.</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li></li>
+</ol>
+<div class="figure">
+<img src="images/4_4.jpg" />
+
+</div>
+<p>Since the indifference curves are not convex, the solution to the problem is actually a local minimum, not a local maximum!</p>
+<p>4.7.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>This graph is in our lecture notes.</p></li>
+<li><p>The expenditure required to achieve utility of 2.</p></li>
+</ol>
+<span class="math display">\[\begin{align*}
+e(p_x, p_y, U) &amp;= 2p_x^{\frac{1}{2}}p_y^{\frac{1}{2}}U \\
+&amp;= 2*1^{\frac{1}{2}}*4^{\frac{1}{2}}2 \text{   using example 4.4 prices}\\
+&amp;= \$8
+\end{align*}\]</span>
+<p>The expenditure required to achieve utility of 3.</p>
+<span class="math display">\[\begin{align*}
+e(p_x, p_y, U) &amp;= 2p_x^{\frac{1}{2}}p_y^{\frac{1}{2}}U \\
+e(1, 4, 2) &amp;= 2*1^{\frac{1}{2}}*4^{\frac{1}{2}}2 \text{   using example 4.4 prices}\\
+&amp;= \$8
+\end{align*}\]</span>
+<span class="math display">\[\begin{align*}
+e(1, 4, 3) &amp;= 2*1^{\frac{1}{2}}*4^{\frac{1}{2}}3 \text{   using example 4.4 prices}\\
+&amp;= \$12
+\end{align*}\]</span>
+<p>So it is $4 extra (<span class="math inline">\(\$4 = \$12 - \$8\)</span>)</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Assuming the same expenditureof $8, how much would we have to subsidise <span class="math inline">\(x\)</span> to achieve utility of 3? Solve the following:</li>
+</ol>
+<span class="math display">\[\begin{align*}
+8 &amp;= e(1 - s,4, 3) \\
+8 &amp;= 2(1-s)^{\frac{1}{2}}4^{\frac{1}{2}}3
+\end{align*}\]</span>
+<p>Solving yields <span class="math inline">\(s = \$\frac{5}{9}\)</span>. To calculate the cost to the government, multiply by the quantity of x purchased.</p>
+<p><span class="math display">\[\frac{5}{9}x^* = \frac{5}{9}\frac{8}{2(1-\frac{5}{9})} = \$5\]</span></p>
+<p>If the objective is to raise utility from 2 to 3, it is cheaper for the government to give an income grant of $4 than to subsidise the purchase of <span class="math inline">\(x\)</span>, because that would cost $5.</p>
+<p>This is the lump sum principle.</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>The general expediture function for Cobb-Douglas utility is given by <span class="math inline">\(e(p_x, p_y, U) = \frac{p_x^{\frac{1}{2}}p_y^{\frac{1}{2}}U}{\alpha^{\alpha} \beta^{\beta}}\)</span>, and for <span class="math inline">\(\alpha = 0.3\)</span>, the quantity <span class="math inline">\(\alpha^{\alpha} \beta^{\beta} \approx 0.543\)</span>.</li>
+</ol>
+<p>So, achieving utility of 2 requires</p>
+<p><span class="math display">\[e(1, 4, 2) = \frac{1^{0.3}*4^{0.7}2}{0.543} = 9.774\]</span></p>
+<p>while achieving utility of 3 requires</p>
+<p><span class="math display">\[e(1, 4, 2) = \frac{1^{0.3}*4^{0.7}3}{0.543} = 14.66\]</span></p>
+<p>which is $4.89 extra.</p>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>Because there are no substitution effects in the fixed proportion case, the optimal point would be the same and also the cost to govt would be same.</li>
+</ol>
+<div class="figure">
+<img src="images/4_7.jpg" />
+
+</div>
+<p>4.10</p>
+<ol style="list-style-type: lower-alpha">
+<li>The solution to a utility max problem with <span class="math inline">\(U(x,y) = x^{\alpha}y^{1-\alpha}\)</span> is</li>
+</ol>
+<p><span class="math display">\[x^* = \alpha\frac{I}{p_x}  \text{  and  } y^* = \beta\frac{I}{p_y}\]</span></p>
+Then indirect utility is<br />
+
+<span class="math display">\[\begin{align*}
+V(p_x,p_y, I) &amp;= \left[ \alpha\frac{I}{p_x} \right]^{\alpha} \left[ \beta\frac{I}{p_y} \right]^{\beta} \\
+&amp;= \alpha^{\alpha}(1-\alpha)^{\alpha}\frac{I}{p_x^{\alpha}*p_y^{\beta}}
+\end{align*}\]</span>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Since the indirect utility function is right in front of us, we can use duality to derive the expenditure function from the indirect utility function.</li>
+</ol>
+<p>Since income is equal to expenditure, we replace <span class="math inline">\(I\)</span> with <span class="math inline">\(e(p_x,p_y,\overline U)\)</span>, and replace <span class="math inline">\(V(p_x,p_y, I)\)</span> with <span class="math inline">\(\overline U\)</span>.</p>
+<p><span class="math display">\[\overline U = \alpha^{\alpha}(1-\alpha)^{\alpha}\frac{e(p_x,p_y,\overline U)}{p_x^{\alpha}*p_y^{1- \alpha}} \]</span></p>
+<p>Now, solving for <span class="math inline">\(e(p_x,p_y, U)\)</span></p>
+<p><span class="math display">\[e(p_x,p_y, U) = \frac{p_x^{\alpha}*p_y^{1- \alpha}* \overline U}{\alpha^{\alpha}(1-\alpha)^{\alpha}}  \]</span></p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li></li>
+</ol>
+<p>The compensation required to offset the effect of a price rise of <span class="math inline">\(x\)</span> can be expressed as</p>
+<span class="math display">\[\begin{align*}
+e(p_x^1,p_y, \overline U) - e(p_x^0,p_y, \overline U) = \frac{\left(p_x^1\right)^{\alpha}*p_y^{1- \alpha}* \overline U}{\alpha^{\alpha}(1-\alpha)^{\alpha}} - \frac{\left(p_x^0\right)^{\alpha}*p_y^{1- \alpha}* \overline U}{\alpha^{\alpha}(1-\alpha)^{\alpha}}
+\end{align*}\]</span>
+<p>This expression obviously varies with <span class="math inline">\(\alpha\)</span> and the higher the <span class="math inline">\(\alpha\)</span> the more compensation needed. One could attempt to differentiate this expression with respect to <span class="math inline">\(\alpha\)</span> but that would be a yucky derivative so we’ll skip it.</p>
 
 </div>
             </section>

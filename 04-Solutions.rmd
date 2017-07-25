@@ -101,8 +101,137 @@ The first order conditions of the Lagrangian problem are:
 5 -c -b &= 0
 \end{align*} 
 
-solving for $b$ and $c$ gives $b = 1$ and $c = 4$. 
+solving for $b$ and $c$ gives $b = 1$ and $c = 4$.   
+
+4.4  
+
+a. Maximising $U(x+y)= x^2+y^2$ won't alter the results because MRS is unchanged under a monotonit increasing transformation.   
+
+
+$$\mathscr{L} = x^2 + y^2 +\lambda[50-3x-4y]$$  
+
+The first order conditions of the Lagrangian problem are: 
+
+\begin{align*}
+2x - 3\lambda &= 0 \\
+2y - 4\lambda &= 0 \\
+50 - 3x - 4y & = 0
+\end{align*} 
+
+Combining eqns 1 and 2, $\frac{x}{y} = \frac{3}{4}$. Substituting in to equation 3, the budget line, we get:  
+\begin{align*}
+50 &= 3 \left( \frac{3}{4}y  \right) + 4y \\
+50 &= \frac{9y}{4} + 4y \\
+50 &= \frac{25y}{4} \\
+\end{align*}
+
+So, $y = 8$ and $x = 6$.  
+
+b.  
+
+![](images\4_4.jpg) 
+
+
+Since the indifference curves are not convex, the solution to the problem is actually a local minimum, not a local maximum!  
+
+
+4.7.  
+
+a.  This graph is in our lecture notes.  
+
+b. The expenditure required to achieve utility of 2. 
+
+\begin{align*}
+e(p_x, p_y, U) &= 2p_x^{\frac{1}{2}}p_y^{\frac{1}{2}}U \\
+&= 2*1^{\frac{1}{2}}*4^{\frac{1}{2}}2 \text{   using example 4.4 prices}\\
+&= \$8
+\end{align*}
+
+The expenditure required to achieve utility of 3. 
+
+\begin{align*}
+e(p_x, p_y, U) &= 2p_x^{\frac{1}{2}}p_y^{\frac{1}{2}}U \\
+e(1, 4, 2) &= 2*1^{\frac{1}{2}}*4^{\frac{1}{2}}2 \text{   using example 4.4 prices}\\
+&= \$8
+\end{align*}
+
+
+\begin{align*}
+e(1, 4, 3) &= 2*1^{\frac{1}{2}}*4^{\frac{1}{2}}3 \text{   using example 4.4 prices}\\
+&= \$12
+\end{align*}
+
+So it is \$4 extra ($\$4 = \$12 - \$8$)
+
+
+c. Assuming the same expenditure\income of \$8, how much would we have to subsidise $x$ to achieve utility of 3?  Solve the following:  
+
+\begin{align*}
+8 &= e(1 - s,4, 3) \\
+8 &= 2(1-s)^{\frac{1}{2}}4^{\frac{1}{2}}3
+\end{align*}
+
+Solving yields $s = \$\frac{5}{9}$. To calculate the cost to the government, multiply by the quantity of x purchased. 
+
+$$\frac{5}{9}x^* = \frac{5}{9}\frac{8}{2(1-\frac{5}{9})} = \$5$$
+
+If the objective is to raise utility from 2 to 3, it is cheaper for the government to give an income grant of \$4 than to subsidise the purchase of $x$, because that would cost \$5.  
+  
+This is the lump sum principle.
+
+d.  The general expediture function for Cobb-Douglas utility is given by $e(p_x, p_y, U) = \frac{p_x^{\frac{1}{2}}p_y^{\frac{1}{2}}U}{\alpha^{\alpha} \beta^{\beta}}$, and for $\alpha = 0.3$, the quantity $\alpha^{\alpha} \beta^{\beta} \approx 0.543$.  
+
+So, achieving utility of 2 requires  
+
+$$e(1, 4, 2) = \frac{1^{0.3}*4^{0.7}2}{0.543} = 9.774$$
+
+while achieving utility of 3 requires  
+
+$$e(1, 4, 2) = \frac{1^{0.3}*4^{0.7}3}{0.543} = 14.66$$
+
+which is \$4.89 extra.  
+
+
+e. Because there are no substitution effects in the fixed proportion case, the optimal point would be the same and also the cost to govt would be same.
+
+![](images\4_7.jpg)
 
 
 
+
+
+
+
+4.10  
+
+a. The solution to a utility max problem with $U(x,y) = x^{\alpha}y^{1-\alpha}$ is  
+
+$$x^* = \alpha\frac{I}{p_x}  \text{  and  } y^* = \beta\frac{I}{p_y}$$ 
+
+Then indirect utility is  
+\begin{align*}
+V(p_x,p_y, I) &= \left[ \alpha\frac{I}{p_x} \right]^{\alpha} \left[ \beta\frac{I}{p_y} \right]^{\beta} \\
+&= \alpha^{\alpha}(1-\alpha)^{\alpha}\frac{I}{p_x^{\alpha}*p_y^{\beta}}
+\end{align*}
+
+b. Since the indirect utility function is right in front of us, we can use duality to derive the expenditure function from the indirect utility function.  
+
+Since income is equal to expenditure, we replace $I$ with $e(p_x,p_y,\overline U)$, and replace $V(p_x,p_y, I)$ with $\overline U$. 
+
+$$\overline U = \alpha^{\alpha}(1-\alpha)^{\alpha}\frac{e(p_x,p_y,\overline U)}{p_x^{\alpha}*p_y^{1- \alpha}} $$
+
+Now, solving for $e(p_x,p_y, U)$  
+
+$$e(p_x,p_y, U) = \frac{p_x^{\alpha}*p_y^{1- \alpha}* \overline U}{\alpha^{\alpha}(1-\alpha)^{\alpha}}  $$
+
+
+c.  
+
+The compensation required to offset the effect of a price rise of $x$ can be expressed as  
+
+\begin{align*}
+e(p_x^1,p_y, \overline U) - e(p_x^0,p_y, \overline U) = \frac{\left(p_x^1\right)^{\alpha}*p_y^{1- \alpha}* \overline U}{\alpha^{\alpha}(1-\alpha)^{\alpha}} - \frac{\left(p_x^0\right)^{\alpha}*p_y^{1- \alpha}* \overline U}{\alpha^{\alpha}(1-\alpha)^{\alpha}}
+\end{align*}
+
+This expression obviously varies with $\alpha$ and the higher the $\alpha$ the more compensation needed. One could attempt to differentiate this expression with respect to $\alpha$ but that would be a yucky derivative so we'll skip it. 
 

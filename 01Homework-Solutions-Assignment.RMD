@@ -7,7 +7,7 @@ Currently, the solutions to our problem sets are handwritten by me, scanned to d
 
 ### Your Responsibility 
 
-Since I do not want you to spend a ton of time on this project; you will be busy enough with classes, exams, and regular homework. But, learning how to type up scientific documents is good training in and of itself. You must sign up for and type one homework solution. This assignment is worth 10% of your final grade. 
+I do not want you to spend a ton of time on this project; you will be busy enough with classes, exams, and regular homework. But, learning how to type up scientific documents is good training in and of itself. You must sign up for and type one homework solution. This assignment is worth 10% of your final grade. 
 
 ### Formatting the Document
  

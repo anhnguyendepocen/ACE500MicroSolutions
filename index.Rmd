@@ -18,3 +18,5 @@ Remember the key to learning the material in ACE 500. Do not consult these solut
 Report an Error or Typo 
 
 If you find a typo or mistake, please report it to me by email. If you are a [Github](https://github.com) user, submit an 'issue'. Better yet, download the markdown text file from [the github repository](https://github.com/mindymallory/ACE500MicroSolutions) and fix and send back to me!  
+
+Also, you can go to [the github repository](https://github.com/mindymallory/ACE500MicroSolutions) and find the raw .RMD files that build the solution webpage. Looking at these files side by side will be helpful as you are trying to figure out Latex Math commands for the first time. This [Latex Wiki](https://en.wikibooks.org/wiki/LaTeX/Mathematics) is another good resource for getting started. Feel free to ask me for help in this. The learning curve can be a little steep, and a simple mistake can cost a beginner a lot of unnecessary time. 

@@ -17,7 +17,8 @@ Since I do not want you to spend a ton of time on this project; you will be busy
  $$E=MC^2$$   
   or   
  $$C=\pi R^2$$  
- `
+ `    
+ 
 Becomes   
 $$E=MC^2$$   
   or     
@@ -28,7 +29,8 @@ $$C=\pi R^2$$
  Many of our problem sets will involve drawing figures. Please hand-draw the figures neatly with pen and paper. When you submit you will turn in a markdown document in .txt file format, a rendered .html , and any figure in format .jpg, .png. Simply take a photo of your hand drawn figure. Pictures can be included in markdown like this…     
 `
 ![Caption](‘filepath-to-figure/figure1.jpg’)
-`
+`   
+
 I’ll take care of code for figures when I put it up on the web. Instead of this, simply write something like…  
 
 (figure 1 here)   

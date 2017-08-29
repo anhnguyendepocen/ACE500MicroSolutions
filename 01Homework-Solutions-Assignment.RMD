@@ -1,0 +1,50 @@
+
+# Homework Solutions Assignment {-}
+
+# Homework Solution Assignment
+
+Currently, the solutions to our problem sets are handwritten by me, scanned to digital copies, and available to you on compass. The quality of these documents has been poor for a long time, and I have been meaning to type them up for years, but I cannot seem to find the time. Previous classes have suggested students could type up the solutions for extra credit. I have come to think this is a good idea. 
+
+# Your Responsibility 
+
+Since I do not want you to spend a ton of time on this project; you will be busy enough with classes, exams, and regular homework. But, learning how to type up scientific documents is good training in and of itself. You must sign up for and type one homework solution. This assignment is worth 10% of your final grade. 
+
+# Formatting the Document
+ 
+ For credit, you are required to type the documents in [Markdown](http://assemble.io/docs/Cheatsheet-Markdown.html). This is a simple alternative to [Latex](https://www.latex-project.org/), which has a pretty steep learning curve. What makes Markdown nice is that you can use latex if you want to, and math equations can be written in latex code and rendered by markdown. Just search 'Latex Math' and there are many cheat-sheets and lists of symbols. 
+ For example, 
+`
+ $$E=MC^2$$   
+  or   
+ $$C=\pi R^2$$  
+ `
+Becomes 
+$$E=MC^2$$   
+  or   
+$$C=\pi R^2$$  
+
+
+# Figures
+ Many of our problem sets will involve drawing figures. Please hand-draw the figures neatly with pen and paper. When you submit you will turn in a markdown document in .txt file format, a rendered .html , and any figure in format .jpg, .png. Simply take a photo of your hand drawn figure. Pictures can be included in markdown like this… 
+`
+![Caption](‘filepath-to-figure/figure1.jpg’)
+`
+I’ll take care of code for figures when I put it up on the web. Instead of this, simply write something like…
+(figure 1 here) 
+
+Directly in the markdown text. 
+
+# Where to Typeset the Markdown Documents?
+ 
+ This website, [https://stackedit.io/editor]( https://stackedit.io/editor), is a free online Markdown editor. You just type on one left side, and you see the typeset version on the right. There is an 'Export as' button that allows you to export as .html. When you turn these in, please include the Markdown code in a .txt file, and a .html of the formatted document as well. 
+ 
+# Assignment Due Date
+
+Please go to the Homework Solution Assignment Wiki to sign up for which chapter you would like to type up. You are to turn in your documents to me via email by the day the chapter is scheduled on our syllabus. Sign-ups are first come first served. 
+
+# Thinking Ahead
+ 
+ I have been interested in Reproducible Research for some time. You can write research papers in Markdown, with you statistical analysis woven directly into to the document so that your raw data gets processed to clean data, to analysis, to populating your paper with results, with a click of one button. That greatly reduces the likelihood of errors, and ensures that your future self will be able to go back and reproduce, or tweak your analysis without forgetting a bunch of steps in between. If you think this is a good idea, check out [a template](http://mindymallory.github.io/research-project-template/) I wrote this template to help students get started writing papers in RMarkdown, and integrating statistical analysis directly into papers with [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/), and [RMarkdown](http://rmarkdown.rstudio.com/). 
+ 
+
+

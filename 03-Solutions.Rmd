@@ -202,9 +202,17 @@ With this utility function depends only on the level of $y$, whereas usually the
 
 [Wikipedia article - Quasilinear Utility](https://en.wikipedia.org/wiki/Quasilinear_utility)
 
-![](images\3_13a.jpg )
+This figure uses the [desmos.com](https://www.desmos.com/calculator) calculator to show several indifference curves setting $U_1 = 1, 2, \text{ and } 3$ respectively.
 
+![](images\3-quasi-linear1.png )
 
+Now adding tangent lines to each indifference curve when $y=1$. 
+
+![](images\3-quasi-linear.png)
+
+The tangent lines when $y=1$ are clearly parallel, so the MRS is constant when $y=1$.  This illustrates that the MRS depends only on y and not on the x value. 
+
+Imagine now that the tangent lines are budget lines, then you can see that as income increases, only the consumption of x increases. The consumption of good y is not subject to a wealth effect. All income effects are captured by the numeraire, x. 
 
 b.  Note from a that the MRS is decreasing in $x$, so the function is quasi-concave.  
 
@@ -213,7 +221,7 @@ c.  $y=e^{-x+U_1}$, where $U_1$ is an arbitrary constant.
 d. $\frac{\partial U}{\partial x} = 1$  and   
 $\frac{\partial U}{\partial y} = \frac{1}{y}$  
 
-Notice that the marginal utility of $x$ is constant, so buying more of it doesn't contribute extra utility. Check out what happens as we increase income in the figure above. The equilibrium $y$ quantity increases, but the equilibrium $x$ quantity does not. If you don't have a good feel for it yet, print a couple indifference curves drawn with the [desmos calculator](https://www.desmos.com/calculator) and draw the tangent budget lines. You should see the same optimal $x$ value.   
+Notice that the marginal utility of $x$ is constant, so as you buy more, the marginal utility of x is not diminishing. 
 
 e. The question here is trying to lead you toward discovering the concept of a numeraire good. 
 

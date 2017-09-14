@@ -214,7 +214,7 @@ The tangent lines when $y=1$ are clearly parallel, so the MRS is constant when $
 
 Imagine now that the tangent lines are budget lines, then you can see that as income increases, only the consumption of x increases. The consumption of good y is not subject to a wealth effect. All income effects are captured by the numeraire, x. 
 
-b.  Note from a that the MRS is decreasing in $x$, so the function is quasi-concave.  
+b.  Note from a that the MRS is decreasing in $x$ (y is after all a function of x...), so the function is quasi-concave.  
 
 c.  $y=e^{-x+U_1}$, where $U_1$ is an arbitrary constant.  
 

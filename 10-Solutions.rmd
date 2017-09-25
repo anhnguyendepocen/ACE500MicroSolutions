@@ -1,0 +1,77 @@
+# Chapter 10 Solutions {-}
+
+*Contributed by Noé Nava and XYZ 2017*
+
+The following function exhibits economies of scope:
+$$C(q_1,0)+C(0,q_2)>C(q_1,q_2)$$
+**10.2**
+
+a) The above inequality exhibits a production function of a firm producing two different goods at a lower cost than two firms producing each good separately. This inequality captures the concept of efficiency: Even though two firms could produce each good separately at the lowest cost of production possible for them, the multi-product firm is able to achieve lower costs than them at the same level of efficiency.
+
+b) We know that the average costs fall as quantity increases, and that the average cost of a firm producing one good is less than the average cost of a multi-product firm producing the same good. The expressions below capture this, 
+$$\frac{C(q_1)}{q_1}>\frac{C(q_1+q_2)}{q_1+q_2}$$
+and
+$$\frac{C(q_2)}{q_2}>\frac{C(q_1+q_2)}{q_1+q_2}$$
+If we multiply each inequality by $q_1$and $q_2$, respectively, we obtain,
+$$q_1(\frac{C(q_1)}{q_1})>q_1(\frac{C(q_1+q_2)}{q_1+q_2})$$
+and
+$$q_2(\frac{C(q_2)}{q_2})>q_2(\frac{C(q_1+q_2)}{q_1+q_2})$$
+
+Next, we combine both inequalities adding the left hand side terms and the right left hand side, maintaining the sign as follows,
+$$q_1(\frac{C(q_1)}{q_1})+q_2(\frac{C(q_2)}{q_2})>q_1(\frac{C(q_1+q_2)}{q_1+q_2})+q_2(\frac{C(q_1+q_2)}{q_1+q_2})$$
+Notice that we can re-write the above expression to get,
+$$q_1(\frac{C(q_1)}{q_1})+q_2(\frac{C(q_2)}{q_2})>(q_1+q_2)(\frac{C(q_1+q_2)}{q_1+q_2})$$
+Finally, we can simplify the expression as follows,
+$$C(q_1)+C(q_2)>C(q_1+q_2)$$
+Therefore, we know that this multi-product firm enjoys economies of scope.
+
+**10.3**
+The following equation represents the production function of Professor Smith and Professor Jones:
+$$q=S^.5*J^.5$$
+a) To obtain the number of hours that Professor Jones needs to spend to produce a finish book of $q$ number of pages, we have to solve the above equality for $J$.
+$$q=S^.5*J^.5$$
+$$\frac{q}{S^.5}=J^.5$$
+$$J=\frac{q^2}{S}$$
+Next, we plug in the value for $S$
+$$J=\frac{q^2}{900}$$
+Finally, we plug in the values of $q$ we want to analyze ($q$ = 150, 300 and 450):
+$$J=\frac{150^2}{900}=25$$
+$$J=\frac{300^2}{900}=100$$
+$$J=\frac{450^2}{900}=225$$
+
+b) To obtain the cost of production, we will sum the cost for Professor Smith's time with the cost of Professor Jone's time as follows,
+$$C(q)=3*(900)+\frac{12}{900}q^2$$
+The first term is the cost of Professor Smith's time, and the second term is the cost of Professor Jone's time. Next, we calculate the Marginal Cost,
+$$MC(q)=\frac{24}{900}q$$
+Finally, we plug in the values of $q$ we want to analyze ($q$ = 150, 300 and 450):
+$$MC(q)=\frac{24}{900}*150=4$$
+$$MC(q)=\frac{24}{900}*300=8$$
+$$MC(q)=\frac{24}{900}*450=12$$
+
+**10.4**
+The firm's fixed proportion production function is given by,
+$$q=min(5k,10l)$$
+a) First, notice that a firm experiencing a proportion production finds efficiency whenever it produces at a certain rate of inputs given by,
+$$5k=10l$$
+The above ratio means that the firm produces efficiently whenever it uses twice as much productive capital as labor; you can solve by $k$ and $l$ to verify. Next, we calculate the quantity the firm produces at the level of efficiency,
+$$q*=5k$$
+and
+$$q*=10l$$
+Where $q*$ denotes quantity at the level of efficiency. Since we are analyzing the amount of inputs, we solve the above two equalities by $k$ and $l$ to get,
+$$k*=\frac{q}{5}$$
+and
+$$l*=\frac{q}{10}$$
+Where $k*$ and $l*$ denote productive capital and labor at the level of efficiency. Next, we calculate the firm's long run Total Cost, $LTC$, Average Cost, $LAC$ and Marginal Cost, $LMC$. The form of this firm's $LTC$ operating at the level of efficiency is:
+$$LTC=vk*+wl*$$
+Where $v$ is the cost for each unit of productive capital, $k$, and $w$ is the wage of each unit of labor, $l$. Finally, we plug in the values for $k*$ and $l*$, and calculate $LAC$ and $LMC$:
+$$LTC=v\frac{q}{5}+w\frac{q}{10}$$
+$$LAC=\frac{v}{5}+\frac{w}{10}$$
+$$LMC=\frac{v}{5}+\frac{w}{10}$$
+b) We know that in the short run $k$ must be constant since the firm cannot liquidate or buy more productive capital. Using part a information, we know that if $k=10$, the firm will produce $q=50$, and $l=5$. Notice that these inputs will guarantee efficiency. Finally, the firm's short run Total Cost, $STC$, Average Cost, $SAC$ and $SMC$ are given by,
+$$STC=10v+w\frac{q}{10}$$
+$$SAC=10\frac{v}{q}+\frac{w}{10}$$
+$$SMC=\frac{w}{10}$$
+c) If $v=1$ and $w=3$ the firm's long run Total Cost, $LTC$, Average Cost, $LAC$ and Marginal Cost, $LMC$. The form of this firm's $LTC$ operating at the level of efficiency is:
+$$LTC=\frac{1}{5}q+\frac{3}{10}q$$
+$$LAC=\frac{1}{2}$$
+$$LMC=\frac{1}{2}$$

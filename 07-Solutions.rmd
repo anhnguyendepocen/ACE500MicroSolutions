@@ -1,5 +1,7 @@
 
-# Chapter 7 Solutions - Uncertainty of Information {-}
+# Chapter 7 Solutions {-}
+
+*Contributed by Felipe Grimaldi Avileis*
 
 7.1.  George's Utility = $ln(x)$ 
 
@@ -39,7 +41,7 @@ As  $U(Y)> E[U(Y)]$ we can prove to her that it is better to buy insurance at th
 
 c) Max insurance, form definition, is the difference between Initial Wealth and CE. As shown below:
 
-(figure 1)
+![Figure 1.](images\7_1.jpg)
 
 If we know Initial Wealth is 10,000, we only need to find CE.
 

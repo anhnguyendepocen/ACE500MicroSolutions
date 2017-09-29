@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>ACE 500 Homework Solutions</title>
   <meta name="description" content="ACE 500 Homework Solutions">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
 
   <meta property="og:title" content="ACE 500 Homework Solutions" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2017-09-25">
+<meta name="date" content="2017-09-29">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -71,6 +71,8 @@
 <li class="chapter" data-level="" data-path="chapter-3-solutions.html"><a href="chapter-3-solutions.html"><i class="fa fa-check"></i>Chapter 3 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-4-solutions.html"><a href="chapter-4-solutions.html"><i class="fa fa-check"></i>Chapter 4 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-5-solutions.html"><a href="chapter-5-solutions.html"><i class="fa fa-check"></i>Chapter 5 Solutions</a></li>
+<li class="chapter" data-level="" data-path="chapter-7-solutions.html"><a href="chapter-7-solutions.html"><i class="fa fa-check"></i>Chapter 7 Solutions</a></li>
+<li class="chapter" data-level="" data-path="chapter-9-solutions.html"><a href="chapter-9-solutions.html"><i class="fa fa-check"></i>Chapter 9 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-10-solutions.html"><a href="chapter-10-solutions.html"><i class="fa fa-check"></i>Chapter 10 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-11-solutions.html"><a href="chapter-11-solutions.html"><i class="fa fa-check"></i>Chapter 11 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-14-solutions.html"><a href="chapter-14-solutions.html"><i class="fa fa-check"></i>Chapter 14 Solutions</a></li>
@@ -218,12 +220,15 @@ and <span class="math inline">\(f(\frac{1}{2},\frac{1}{2}) = \frac{1}{4}\)</span
 <p>How does the max change as <span class="math inline">\(g\)</span> changes? Take the derivative.</p>
 <p><span class="math inline">\(f&#39;(g) = -\frac{800}{g^2}\)</span>.</p>
 <ol start="3" style="list-style-type: lower-alpha">
-<li>By the envelope theorem, we can take our optimal <span class="math inline">\(t\)</span> from part a, and plug directly into <span class="math inline">\(f(t^*(g),g)\)</span>, then take the derivative of this directly with respect to <span class="math inline">\(g\)</span>.</li>
+<li>By the envelope theorem, when we differentiate the value function <span class="math inline">\(f(t^*(g),g)\)</span> with respect to <span class="math inline">\(g\)</span>, we will only get a non-zero contribution where the <span class="math inline">\(g\)</span> directly enters the function. All contributions that come indirectly through <span class="math inline">\(t^*(g)\)</span> are zero.</li>
 </ol>
-<p><span class="math inline">\(f(t^*(g), g) = -0.5g(\frac{40}{g})^2 + 40(\frac{40}{g})\)</span><br />
-<span class="math inline">\(f(t^*(g), g) = -0.5(\frac{40^2}{g}) + \frac{40^2}{g}\)</span><br />
-<span class="math inline">\(f(t^*(g), g) = 0.5\frac{40^2}{g}\)</span></p>
-<p>So, <span class="math inline">\(f&#39;(t^*(g), g) = -0.5(\frac{40^2}{g^2}) = -\frac{800}{g^2}\)</span></p>
+<p><span class="math display">\[f(t^*(g), g) = -0.5g(t^*(g))^2 + 40(t^*(g))\]</span></p>
+<p>So,</p>
+<span class="math display">\[\begin{align*}  
+\frac{\partial f(t^*(g), g)}{\partial g} &amp;= -0.5(t^*(g))^2 \\
+&amp;= -0.5\left(\frac{40}{g}\right)^2 \\
+&amp;= -\frac{800}{g^2}
+\end{align*}\]</span>
 <p>The same as in part b.</p>
 <ol start="4" style="list-style-type: lower-alpha">
 <li><span class="math inline">\(f(32.1) - f(31.9) = \frac{800}{32.1} - \frac{800}{31.9} = -0.156\)</span></li>
@@ -316,7 +321,7 @@ and <span class="math inline">\(f(\frac{1}{2},\frac{1}{2}) = \frac{1}{4}\)</span
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,

@@ -1,0 +1,53 @@
+
+# Chapter 7 Solutions - Uncertainty of Information {-}
+
+7.1.  George's Utility = $ln(x)$ 
+
+Starting wealth = 1000000
+
+If he wins he gets 1,000 , if he loses 1,000 .
+
+Therefore:
+
+$ln(1000000) = \pi(bullswin) * ln(1100000) + (1-\pi(bullswin))*ln(900000)$
+
+$ln(1000000)= ln(900000) + \pi(bullswin)*(ln(1100000)-ln(900000))$
+
+$\pi(bullswin) = (ln(1000000) - ln(900000))/ (ln(1100000) - ln(900000))$
+
+Computing we get that $\pi(bullswin) = .525042$ or 52.5%, meaning that George believes the bulls have, at least, a 52.5% chance of winning the NBA finals.
+
+7.5. Ms. Fogg's Utility = $ln(Y)$
+
+a) Prob of losing 1,000  = 25% or .25 
+
+Therefore
+
+$E[U(Y)] = .25*ln(9,000) + .75*ln(10,000)$
+
+$E[U(Y)] = 9.184$
+
+b) In order to prove to her that her utility would be greater after she purchase's the insurance, all we need is to compare the utility's with and without insurance.
+
+From a) we know that $E[U(Y)] = 9.184$
+
+So we calculate U(Y) with the fair actuarial rate of $250.
+
+$U(Y) = ln(10000-250) = 9.185$
+
+As  $U(Y)> E[U(Y)]$ we can prove to her that it is better to buy insurance at this rate.
+
+c) Max insurance, form definition, is the difference between Initial Wealth and CE. As shown below:
+
+(figure 1)
+
+If we know Initial Wealth is 10,000, we only need to find CE.
+
+$U(CE) = E[U(gamble)]$
+$ln(CE) = 9.184$ (from a)
+$CE = 9,740.04$
+
+Using Initial Wealth - CE = max premium, we get
+
+$ Max Prem = 10,000 - 9,740.04$
+$Max Prem = 259.97$

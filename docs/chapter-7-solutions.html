@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>ACE 500 Homework Solutions</title>
   <meta name="description" content="ACE 500 Homework Solutions">
-  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
 
   <meta property="og:title" content="ACE 500 Homework Solutions" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2017-09-29">
+<meta name="date" content="2017-10-02">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -130,9 +130,71 @@
 <p class="caption">Figure 1.</p>
 </div>
 <p>If we know Initial Wealth is 10,000, we only need to find CE.</p>
-<p><span class="math inline">\(U(CE) = E[U(gamble)]\)</span> <span class="math inline">\(ln(CE) = 9.184\)</span> (from a) <span class="math inline">\(CE = 9,740.04\)</span></p>
+<p><span class="math inline">\(U(CE) = E[U(gamble)]\)</span></p>
+<p><span class="math inline">\(ln(CE) = 9.184\)</span> (from a)</p>
+<p><span class="math inline">\(CE = 9,740.04\)</span></p>
 <p>Using Initial Wealth - CE = max premium, we get</p>
-<p>$ Max Prem = 10,000 - 9,740.04$ <span class="math inline">\(Max Prem = 259.97\)</span></p>
+<p><span class="math inline">\(Max Prem = 10,000 - 9,740.04\)</span></p>
+<p><span class="math inline">\(Max Prem = 259.97\)</span></p>
+<p>7.7</p>
+<p>A farmer believes there is a 50–50 chance that the next growing season will be abnormally rainy. His expected utility function has the form</p>
+<p><strong>expected value = <span class="math inline">\(\frac{1}{2}\ln\Upsilon_{NR} + \frac{1}{2}\ln\Upsilon_{R}\)</span></strong></p>
+<p>where <span class="math inline">\(\Upsilon_{NR}\)</span> and <span class="math inline">\(\Upsilon_{NR}\)</span> represent the farmer’s income in the states of “normal rain” and “rainy,” respectively.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Suppose the farmer must choose between two crops that promise the following income prospects:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Crop</th>
+<th align="right"><span class="math inline">\(\Upsilon_{NR}\)</span></th>
+<th align="center"><span class="math inline">\(\Upsilon_{R}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Wheat</td>
+<td align="right">28,000</td>
+<td align="center">10,000</td>
+</tr>
+<tr class="even">
+<td align="left">Corn</td>
+<td align="right">19,000</td>
+<td align="center">15,000</td>
+</tr>
+</tbody>
+</table>
+<p>Which of the crops will he plant?</p>
+<p><strong><span class="math inline">\(EV(Wheat) = \frac{1}{2}28,000 + \frac{1}{2}10,000 = 19,000\)</span></strong> <strong><span class="math inline">\(EV(Corn) = \frac{1}{2}19,000 + \frac{1}{2}15,000 = 17,000\)</span></strong></p>
+<p><strong><span class="math inline">\(EU(Wheat) = \frac{1}{2}\ln28,000 + \frac{1}{2}\ln10,000 = 9.725\)</span></strong> <strong><span class="math inline">\(EU(Corn) = \frac{1}{2}\ln19,000 + \frac{1}{2}\ln15,000 = 9.734\)</span></strong></p>
+<p>Here, the farmer produces both corn and wheat even though the expected value for wheat exceeds the expected value for corn. This is because the farmer’s utility of wealth is concave. In other words, this individual is risk averse and chooses to plant at least some corn because corn profits less susceptible to the risks posed by abnormally high levels of rain.</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Suppose the farmer can plant half his field with each crop. Would he choose to do so? Explain your result.</li>
+</ol>
+<p><strong><span class="math inline">\(EU(\frac{1}{2}Wheat,\frac{1}{2}Corn) = \frac{1}{2}\ln19000 + \frac{1}{2}\ln17,000 = 9.74912\)</span></strong></p>
+<p>Because the farmer’s expected utility for planting half of his field with wheat and half of his field with corn exceeds the expected utility of planting any one crop exclusively, he may consider this strategy as an option. However as we see in in the next step, the farmer maximizes his expected utility by planting these crops in a more optimal proportion.</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>What mix of wheat and corn would provide maximum expected utility to this farmer?</li>
+</ol>
+<span class="math display">\[\begin{align*}
+EU(\alpha, 1 - \alpha)  &amp;= \frac{1}{2}\ln[\alpha28,000 + (1- \alpha)19,000]+\frac{1}{2}\ln[\alpha10,000 + (1- \alpha)15,000] \\  
+EU(\alpha, 1 - \alpha)  &amp;= \frac{1}{2}\ln[19,000 + 9,000\alpha]+\frac{1}{2}\ln[15,000 - 5,000\alpha]
+\end{align*}\]</span>
+<p>Then, to find optimal proportion, we take the partial derivative with respect to <span class="math inline">\(\alpha\)</span>.</p>
+<p><span class="math display">\[\frac{\partial EU}{\partial \alpha}= \frac{1}{2}\frac{9,000}{19,000 + 9,000\alpha}+\frac{1}{2}\frac{-5,000}{15,000 - 5,000\alpha}=0\]</span></p>
+<p>Solving the first order condition, we find <span class="math inline">\(\alpha = .4\overline{4}\)</span> and <span class="math inline">\((1-\alpha) = .5\overline{5}\)</span>.</p>
+<p>In these proportions, the farmer’s expected utility is:</p>
+<span class="math display">\[\begin{align*}
+EU &amp;= \frac{1}{2}\ln[(.4\overline{4})28,000 + (.5\overline{5})19,000]+\frac{1}{2}\ln[(.4\overline{4})10,000 + (.5\overline{5})15,000] \\
+EU &amp;= 9.74935
+\end{align*}\]</span>
+<p>So, if the farmer wishes to optimize his expected utilility he should devote approximately 44% of his field to wheat production and 56% to corn production.</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Would wheat crop insurance—which is available to farmers who grow only wheat and which costs 4,000 and pays off 8,000 in the event of a rainy growing season—cause this farmer to change what he plants?</li>
+</ol>
+<p><span class="math display">\[EU(Wheat+Insurance)  = \frac{1}{2}\ln(28,000-4000) + \frac{1}{2}\ln(10,000-4,000+8,000)\]</span></p>
+<p><span class="math display">\[EU(Wheat+Insurance)  = 9.8163\]</span></p>
+<p>In this scenario, the farmer is better off if he purchases the insurance and only grows wheat.</p>
 
 </div>
             </section>
@@ -152,7 +214,7 @@
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-gitbook.require(["gitbook"], function(gitbook) {
+require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,

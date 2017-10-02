@@ -1,7 +1,7 @@
 
 # Chapter 7 Solutions {-}
 
-*Contributed by Felipe Grimaldi Avileis*
+*Contributed by Felipe Grimaldi Avileis and Matt Nolan*
 
 7.1.  George's Utility = $ln(x)$ 
 

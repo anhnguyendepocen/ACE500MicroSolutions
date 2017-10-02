@@ -51,3 +51,5 @@ Using Initial Wealth - CE = max premium, we get
 
 $ Max Prem = 10,000 - 9,740.04$
 $Max Prem = 259.97$
+
+

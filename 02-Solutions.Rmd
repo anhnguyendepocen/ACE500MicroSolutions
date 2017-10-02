@@ -193,14 +193,21 @@ For the when two problems are 'dual' the marginal benefit in one becomes the mar
   
   $f'(g) = -\frac{800}{g^2}$.
   
-  c. By the envelope theorem, we can take our optimal $t$ from part a, and plug directly into $f(t^*(g),g)$, then take the derivative of this directly with respect to $g$. 
+  c. By the envelope theorem, when we differentiate the value function $f(t^*(g),g)$ with respect to $g$, we will only get a non-zero contribution where the $g$ directly enters the function. All contributions that come indirectly through $t^*(g)$ are zero. 
   
-  $f(t^*(g), g) = -0.5g(\frac{40}{g})^2 + 40(\frac{40}{g})$  
-  $f(t^*(g), g) = -0.5(\frac{40^2}{g}) + \frac{40^2}{g}$  
-  $f(t^*(g), g) = 0.5\frac{40^2}{g}$
+
+  $$f(t^*(g), g) = -0.5g(t^*(g))^2 + 40(t^*(g))$$  
   
-  So, $f'(t^*(g), g) = -0.5(\frac{40^2}{g^2}) = -\frac{800}{g^2}$  
+  So, 
+
+\begin{align*}  
+\frac{\partial f(t^*(g), g)}{\partial g} &= -0.5(t^*(g))^2 \\
+&= -0.5\left(\frac{40}{g}\right)^2 \\
+&= -\frac{800}{g^2}
+\end{align*}
+
   
+ 
   The same as in part b. 
   
   d. $f(32.1) - f(31.9) = \frac{800}{32.1} - \frac{800}{31.9} = -0.156$

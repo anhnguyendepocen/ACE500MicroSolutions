@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>ACE 500 Homework Solutions</title>
   <meta name="description" content="ACE 500 Homework Solutions">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
 
   <meta property="og:title" content="ACE 500 Homework Solutions" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2017-09-25">
+<meta name="date" content="2017-09-29">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -71,6 +71,8 @@
 <li class="chapter" data-level="" data-path="chapter-3-solutions.html"><a href="chapter-3-solutions.html"><i class="fa fa-check"></i>Chapter 3 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-4-solutions.html"><a href="chapter-4-solutions.html"><i class="fa fa-check"></i>Chapter 4 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-5-solutions.html"><a href="chapter-5-solutions.html"><i class="fa fa-check"></i>Chapter 5 Solutions</a></li>
+<li class="chapter" data-level="" data-path="chapter-7-solutions.html"><a href="chapter-7-solutions.html"><i class="fa fa-check"></i>Chapter 7 Solutions</a></li>
+<li class="chapter" data-level="" data-path="chapter-9-solutions.html"><a href="chapter-9-solutions.html"><i class="fa fa-check"></i>Chapter 9 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-10-solutions.html"><a href="chapter-10-solutions.html"><i class="fa fa-check"></i>Chapter 10 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-11-solutions.html"><a href="chapter-11-solutions.html"><i class="fa fa-check"></i>Chapter 11 Solutions</a></li>
 <li class="chapter" data-level="" data-path="chapter-14-solutions.html"><a href="chapter-14-solutions.html"><i class="fa fa-check"></i>Chapter 14 Solutions</a></li>
@@ -138,13 +140,32 @@ y &amp; = \sqrt{x^2 - U^2_1}
 \end{align*}\]</span>
 <p>And then finding the <span class="math inline">\(MRS\)</span>,</p>
 <span class="math display">\[\begin{align*}
-MRS &amp; = -( \frac{1}{\sqrt{2(x^2 - U^2_1)}}2x)
+MRS &amp; = - \frac{x}{\sqrt{(x^2 - U^2_1)}}
 \end{align*}\]</span>
 <p>Yes, these indifference curves decrease as x increases, but this is a tricky question because this is not a proper utility curve to begin with.</p>
+<ol start="5" style="list-style-type: lower-alpha">
+<li><span class="math inline">\(U(x,y) = \frac{xy}{x+y}\)</span></li>
+</ol>
+<span class="math display">\[\begin{align*}
+U_0 &amp;= \frac{xy}{x+y} \\
+U_0(x+y) &amp;= xy \\
+U_0x &amp;= xy - U_0y \\
+U_0x &amp;= y(x-U_0) \\
+y &amp;= \frac{U_0x}{x-U_0}
+\end{align*}\]</span>
+<p>So,</p>
+<span class="math display">\[\begin{align*}
+MRS &amp;= -\frac{dy}{dx}\biggr\rvert_{U=U_0} \\
+    &amp;= -\left( \frac{U_0(x-U_0) - U_0x}{(x-U_0)^2} \right) \\
+    &amp;= \frac{U_0^2}{(x-U_0)^2}
+\end{align*}\]</span>
+<p>Is the MRS everywhere decreasing?</p>
+<p><span class="math display">\[\frac{\partial MRS}{\partial x} = -2U_0(x-U_0)^{-3} &lt; 0\]</span></p>
+<p>for all <span class="math inline">\(x&gt;0\)</span>. So yes, the function is quasi-concave.</p>
 <p><strong>To check out these and other indifference curves see <a href="https://www.desmos.com/calculator">desmos.com/calculator</a></strong></p>
 <div class="figure">
-<img src="images/3_1.jpg" alt="a-d indifference curves" />
-<p class="caption">a-d indifference curves</p>
+<img src="images/3_1.jpg" alt="a-e indifference curves" />
+<p class="caption">a-e indifference curves</p>
 </div>
 <p>3.3</p>
 <ol style="list-style-type: lower-alpha">
@@ -251,6 +272,9 @@ at point <span class="math inline">\((12,3)\)</span> the <span class="math inlin
 <ol start="5" style="list-style-type: lower-alpha">
 <li>The question here is trying to lead you toward discovering the concept of a numeraire good.</li>
 </ol>
+<p><strong>Desmos Graphin Calculator Demo</strong></p>
+<iframe width="853" height="569" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cbQUrPIx4b&amp;v=5&amp;ff=1" allowfullscreen="false">
+</iframe>
 
 </div>
             </section>
@@ -270,7 +294,7 @@ at point <span class="math inline">\((12,3)\)</span> the <span class="math inlin
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,

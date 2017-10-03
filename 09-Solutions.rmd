@@ -70,29 +70,34 @@ d)It depends if Carla's unhappiness serving extra customers incurs additional co
 
 a) Allocate labor so that the MPs are equal at each site, otherwise you would set more output by adjusting.
 
-$$MP_l1=MP_l2$$
-$$5l1^{-0.5}=25-l2^{-0.5}$$
-$$l1=5l2^{-2}$$
-$$l1=\frac{l2}{25}$$
-$$l1=[5l2^{-0.5}]^{\frac{-1}{0.5}}$$
-b) $$q=10_l1^{0.5}+50_l2^{0.5}$$
-$$q=10[\frac{l2}{25}]^{0.5}+50l2^{0.5}$$
-$$q=2l2^{0.5}+50l2^{0.5}$$
-$$q=l2^{0.5}$$
+$$MP_{l1}=MP_{l2}$$
+$$5l_1^{-0.5}=25-l_2^{-0.5}$$
+$$l_1=5l_2^{-2}$$
+$$l_1=\frac{l_2}{25}$$
+$$l_1=[5l_2^{-0.5}]^{\frac{-1}{0.5}}$$
+b) $$q=10l_1^{0.5}+50l_2^{0.5}$$
+$$q=10[\frac{l_2}{25}]^{0.5}+50l_2^{0.5}$$
+$$q=2l_2^{0.5}+50l_2^{0.5}$$
+$$q=l_2^{0.5}$$
 $$q=52[\frac{25}{26}l]^{0.5}$$
 To show how why the equation above as it is,follow the steps below:
-$$l1+l2=l$$
-$$\frac{l2}{25}+l2=l$$
-$$\frac{26}{25}l2=l$$
-$$l2=\frac{25}{26}l$$
+$$l_1+l_2=l$$
+$$\frac{l_2}{25}+l_2=l$$
+$$\frac{26}{25}l_2=l$$
+$$l_2=\frac{25}{26}l$$
 
 $$q=\frac{52.5}{\sqrt{26}}l^{0.5}$$ 
 
 
 9.7
-Production function generalized from Q9.3 $$q=\beta_0+\beta_1\sqrt{kl}+\beta_2k+\beta_3l$$
+Production function generalized from Q9.3 
+
+$$q=\beta_0+\beta_1\sqrt{kl}+\beta_2k+\beta_3l$$
+
 a)
-CRTS
+
+CRTS  
+
 $$q=f(tk, tl)=tf(k,l)$$$$f(tk,tl)=\beta_0+\beta_1\sqrt{(tk)(tl)}+\beta_2(tk)+\beta_3(tl)$$$$=\beta_0+t\beta_1\sqrt{kl}+t\beta_2k+t\beta_3l$$$$=tf(k,l)$$ if and only if $$\beta_0=0$$
 b)
 $$MP_l=\frac{1}{2}\beta_1k^{\frac{1}{2}}l^{\frac{-1}{2}}+\beta_3$$$$MP_k=\frac{1}{2}\beta_1k^{\frac{-1}{2}}l^{\frac{1}{2}}+\beta_2$$
@@ -113,12 +118,13 @@ $$f_{kl}=\frac{df_k}{dl}=\frac{d}{dl}(\frac{1}{2}\beta_1k^{\frac{-1}{2}}l^{\frac
 
 
 $$=\frac{[\frac{1}{2}\beta_1k^\frac{-1}{2}l^\frac{1}{2}+\beta_2][\frac{1}{2}\beta_1k^\frac{1}{2}l^\frac{1}{2}+\beta_3]}{[\beta_1\sqrt{kl}+\beta_2k+\beta_3l][\frac{1}{4}\beta_1k^\frac{-1}{2}l^\frac{-1}{2}]}$$
-If B2=B3=0
+If $B_2=B_3=0$  
+
 $$=\frac{[\frac{1}{2}\beta_1k^\frac{-1}{2}l^\frac{1}{2}][\frac{1}{2}\beta_1k^\frac{1}{2}l^\frac{1}{2}]}{[\beta_1\sqrt{kl}][\frac{1}{4}\beta_1k^\frac{-1}{2}l^\frac{-1}{2}]}$$
 
 $$=\frac{\beta_1^2l^\frac{1}{2}k^\frac{1}{2}}{[\beta_1\sqrt{kl}][\beta_1]}=1$$
 If B1=0
-$$\sigma=\frac{[\beta_2][\beta_3]}{[\beta_2k+\beta_3l]*0}=\infty``$$
+$$\sigma=\frac{[\beta_2][\beta_3]}{[\beta_2k+\beta_3l]*0}=\infty$$
 
 
 

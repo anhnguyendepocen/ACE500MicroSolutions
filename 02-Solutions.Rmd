@@ -210,10 +210,12 @@ For the when two problems are 'dual' the marginal benefit in one becomes the mar
  
   The same as in part b. 
   
-  d. $f(32.1) - f(31.9) = \frac{800}{32.1} - \frac{800}{31.9} = -0.156$
+  d. Using the function in levels $f(32.1) - f(32) = \frac{800}{32.1} - \frac{800}{32} = -0.078$. However, we can also calculate it with the derivative. We found $f'(g) = -\frac{800}{g^2}$ so $f'(32)=-0.78$. and this is understood to be the *per unit* change in f as g changes. In this case we are not changing g by 1 we are changing g by 0.1. If we scale the derivative in this way, we get roughly the same answer. $0.1*f'(32)=-0.78*0.1 = -0.078$. 
   
   
-2.6 A simple way to model the construction of an oil tanker is to start with a large rectangular sheet of steel that is x feet wide and 3x feet long. Now cut a smaller square that is $t$ feet on a side out of each corner of the larger sheet and fold up and weld the sides of the steel sheet to make a tray like structure with no top. 
+2.6  
+
+A simple way to model the construction of an oil tanker is to start with a large rectangular sheet of steel that is x feet wide and 3x feet long. Now cut a smaller square that is $t$ feet on a side out of each corner of the larger sheet and fold up and weld the sides of the steel sheet to make a tray like structure with no top. 
 
 [Figure Here]
 

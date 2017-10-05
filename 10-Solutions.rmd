@@ -1,6 +1,6 @@
 # Chapter 10 Solutions {-}
 
-*Contributed by Noé Nava and XYZ 2017*
+*Contributed by Noé Nava and Brant Bruxvoort 2017*
 
 The following function exhibits economies of scope:
 $$C(q_1,0)+C(0,q_2)>C(q_1,q_2)$$
@@ -75,3 +75,185 @@ c) If $v=1$ and $w=3$ the firm's long run Total Cost, $LTC$, Average Cost, $LAC$
 $$LTC=\frac{1}{5}q+\frac{3}{10}q$$
 $$LAC=\frac{1}{2}$$
 $$LMC=\frac{1}{2}$$
+
+
+
+
+
+
+
+10.5
+
+
+$q=2\sqrt{kl}$	
+$k=100$ in short run
+$v=1$
+$w=4$
+
+**a) Calculate short run total cost.**
+$$
+\begin{align}
+\mathscr{L}&=1(100)+4l+\lambda [q-2\sqrt{l(100)}]\ \\ \mathscr{L}&=100+4l+\lambda [q-20\sqrt{l}]
+\end{align}
+$$
+
+FOC:
+$4-\lambda 10l^{-1/2}=0$
+$q=20\sqrt{l}$
+$\Rightarrow (\frac{q}{20})^2=l^*$
+Short run total cost $\Rightarrow$ $SC(v, w, q)=100+4\frac{q^2}{400}$
+$SAC=\frac{100}{q}+\frac{q}{100}$
+$SMC=(100+\frac{q^2}{100})=\frac{q}{50}$
+
+**b) c) d)**
+Also see figure.
+$SAC=\frac{100}{q}+\frac{q}{100}$
+$SMC=\frac{q}{50}$
+$\frac{100}{q}+\frac{q}{100}=\frac{q}{50}$
+$\frac{100}{q}=\frac{2q-q}{100}$
+$\frac{100}{q}={q}{100}$
+$100=\frac{q^2}{100}$
+$100=q$ (this is also min of SAC)
+
+**e)**
+$q=2\sqrt{\bar{k}l}$
+$(\frac{q}{2\sqrt{\bar{k}}})=l^c$
+
+$SC(v, w, q, k=\bar{k})=v\bar{k}+w(\frac{q^2}{4k})$
+
+**f)**
+Minimize short run costs over $\bar{k}$
+$ \min\limits_ {\bar{k}}SC(v, w, q, k=\bar{k})$
+
+\begin{align}
+\frac{\mathrm{d}}{\mathrm{d} \bar{k}}(v\bar{k}+w\frac{q^2}{4\bar{k}})&=\frac{\mathrm{d}}{\mathrm{d} \bar{k}}(v\bar{k}+\frac{w}{4}\bar{k}^{-1} q^2)\\
+&=v-\frac{wq^2}{4\bar{k}^2}=0\\
+\end{align}
+
+
+Solve for $\bar{k}$
+
+$$
+\begin{align}
+v&=\frac{wq^2}{4\bar{k}^2}\\
+4v\bar{k}^2&=wq^2\\
+\bar{k}^2&=\frac{wq^2}{4v}\\
+\bar{k}&=\sqrt{\frac{w}{v}}\frac{q}{2}\\
+\end{align}
+$$
+
+since both must be positive (note typo in book solution here)
+ 
+**g)**
+If $k$ is calculated correctly in (f) then plugging cost minimizing $\bar{k}$ into $SC$ should give us the long run cost function.
+
+$$
+\begin{align}
+SC(v, w, q, \bar{k}&=\sqrt{\frac{w}{v}}\frac{q}{2})=v[\sqrt{\frac{w}\\{v}}\frac{q}{2}]+w[\frac{q^2}{4}[\sqrt{\frac{w}{v}}\frac{q}{2}]]\\
+&=\sqrt{v}\sqrt{w}\frac{q}{2}+\sqrt{v}\sqrt{w}\frac{q}{2}\\
+&=\sqrt{v}\sqrt{w}q\\
+&=c(v, w, q)
+\end{align}
+$$
+
+This is the long run cost function for Cobb-Douglas
+
+**h)**
+See figure.
+
+The long run cost curve is an 'envelope' of the short run cost curves.
+
+![Figure for 10.5 b,c, and d](images\10_7bcd.jpg)
+
+
+![Figure for 10.7 h](images\10_7h.jpg)
+
+
+
+
+10.7
+
+**a)**
+
+$l^*=\frac{\partial{c}}{\partial{w}}=\frac{2}{3}qw^{-1/ 3}v^{1/3}$
+$k^*=\frac{\partial{c}}{\partial{v}}=\frac{1}{3}qw^{2/ 3}v^{-2/3}$
+
+**b)**
+Both equations above have $(\frac{v}{w})$ in them.
+
+$l^*=\frac{2}{3}q(\frac{v}{w})^{1/3}$
+
+$l^*=\frac{1}{3}q(\frac{v}{w})^{-2/3}$
+
+Solve for $(\frac{v}{w})$ in each, then set equal to each other.
+
+$$
+\begin{align}
+[\frac{l^*\frac{3}{2}}{q}]^3&=\frac{v}{w}\\
+[\frac{k^*(3)}{q}]^{-3/2}]&=\frac{v}{w}\\
+[\frac{l\frac{3}{2}}{q}]^3&=[\frac{k(3)}{q}]^{-3/2}]\\
+\end{align}
+$$
+
+This is a relationship between $q$ & $k$ & $l$...a production function! Solve for q.
+
+$$
+\begin{align}
+\frac{(\frac{3l}{2})^3}{q^3}&=\frac{(3k)^{-3/2}}{q^{-3/2}}\\
+(\frac{3l}{2})^3(3k)^{-3/2}&=q^3\cdot q^{3/2}\\
+3^3(\frac{1}{2})^33^{3/2}l^3k^{3/2}&=q^{9/2}\\
+3^{9/2}(\frac{1}{2})^3l^3k^{3/2}&=q^{9/2}\\
+3(\frac{1}{2})^{2/3}l^{2/3}k^{1/3}&=q\\
+3(\frac{1}{4})^{1/3}l^{2/3}k^{1/3}&=q\\
+\end{align}
+$$
+This looks more like a production function!
+
+
+
+10.8
+
+$c=q(v+s\sqrt{vw}+w)$
+
+**a)**
+
+$$
+\begin{align}
+&k^* = \frac{\partial c}{\partial v}=q+v^{-1/2}w^{1/2}q \Rightarrow k=q+(\frac{v}{w})^{-1/2}\cdot q\\
+&l^*=\frac{\partial c}{\partial w}=q+v^{1/2}w^{-1/2}q \Rightarrow l=q+(\frac{v}{w})^{1/2}\cdot q
+\end{align}
+$$
+
+$$
+\begin{align}
+&\frac{k}{q}=1+(\frac{v}{w})^{-1/2} & &\frac{l}{q}=1+(\frac{v}{w})^{1/2}\\
+&[\frac{k}{q}-1]^{-2}=\frac{v}{w} & &[\frac{l}{q}-1]^2=\frac{v}{w}\\
+\end{align}
+$$
+
+**b)**
+
+$$
+\begin{align}
+[\frac{k}{q}-1]^{-2}&=[\frac{l}{q}-1]^2\\
+\frac{1}{\frac{k}{q}-1}&=[\frac{l}{q}-1]\\
+\frac{q}{k-q}&=\frac{l-q}{q}
+\end{align}
+$$
+
+$$
+\begin{align}
+&q^2-(l-q)(k-q)=0\\
+&q^2-[lk-lq-kq+q^2]=0\\
+&q(l+k)-lk=0\\
+&q=\frac{lk}{l+k}
+\end{align}
+$$
+
+**c)**
+
+CES with $\rho =1$ and $\gamma = 1$
+
+$$
+q=(k^{-1}=l^{-1})^{-1}=\frac{l}{\frac{1}{k}+\frac{1}{l}}=\frac{lk}{l+k}
+$$

@@ -1,6 +1,49 @@
 # Chapter 11 Solutions {-}
 
-*Contributed by Luke Gasparich and XYZ 2017*
+*Contributed by Luke Gasparich and Steve Burak 2017*
+
+11.1)** 
+**(a) Maximum Profit:**
+
+$\pi(q) = 20q - .1q^2 - 10q - 50$
+$\pi'(q) = 20 - .2q - 10 = 0$
+$.2q = 10$
+$q = 50$
+
+**(b) Maximum Daily Profit:**
+
+$\pi(50) = 20(50) - .1(50)^2 - 10(50) - 50 = 200$
+
+**(c) Graph the Results:**
+
+$S = MC = .2q + 10$
+
+![Figure 1](images\11_1.png)
+
+
+
+**11.2)**
+A lump sum tax on profits would look like this:&nbsp;&nbsp;&nbsp;$\pi(q) = pq - c(q) - t$
+FOC:&nbsp;&nbsp;&nbsp;$p - c'(q) = 0$&nbsp;&nbsp;&nbsp;The same as FOC without tax.
+
+A proportional tax on profits would look like this:&nbsp;&nbsp;$\pi(q) = (1-t)[pq - c(q)]$ because the firm has to pay&nbsp;&nbsp;$t*\pi(q)$ in taxes.
+FOC:&nbsp;&nbsp;&nbsp;$(1-t)(p-c'(q)) = 0$&nbsp;&nbsp;&nbsp;$=>$&nbsp;&nbsp;&nbsp;$p - c'(q) = 0$&nbsp;&nbsp;&nbsp;(Divide through by (1-t))
+Same as above, so proportional tax on profit has no affect on output decisions.
+
+Per unit output:&nbsp;&nbsp;&nbsp;$\pi(q) = pq - c(q) - tq$
+FOC:&nbsp;&nbsp;&nbsp;$p - c'(q) - t = 0$, this one is different so per unit tax affects output choice.
+
+
+
+
+
+
+
+
+
+
+
+
 
 11.4)
 

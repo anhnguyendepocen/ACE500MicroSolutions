@@ -8,7 +8,7 @@ $$C(q_1,0)+C(0,q_2)>C(q_1,q_2)$$
 
 a) The above inequality exhibits a production function of a firm producing two different goods at a lower cost than two firms producing each good separately. This inequality captures the concept of efficiency: Even though two firms could produce each good separately at the lowest cost of production possible for them, the multi-product firm is able to achieve lower costs than them at the same level of efficiency.
 
-b) We know that the average costs fall as quantity increases, and that the average cost of a firm producing one good is less than the average cost of a multi-product firm producing the same good. The expressions below capture this, 
+b) We know that the average costs fall as quantity increases, and that the average cost of a firm producing one good is greater than the average cost of a multi-product firm producing the same good. The expressions below capture this, 
 $$\frac{C(q_1)}{q_1}>\frac{C(q_1+q_2)}{q_1+q_2}$$
 and
 $$\frac{C(q_2)}{q_2}>\frac{C(q_1+q_2)}{q_1+q_2}$$

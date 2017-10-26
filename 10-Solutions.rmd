@@ -252,8 +252,13 @@ $$
 
 **c)**
 
-CES with $\rho =1$ and $\gamma = 1$
+CES with $\rho =1$ and note that the book should have told us to assume $\gamma = 1$. Without it, we cannot work out the problem. 
 
-$$
-q=(k^{-1}=l^{-1})^{-1}=\frac{l}{\frac{1}{k}+\frac{1}{l}}=\frac{lk}{l+k}
-$$
+\begin{align*}
+C(r,w,q) &= q^{\frac{1}{\gamma}}(r^{1-\sigma} + w^{1-\sigma})^{\frac{1}{1-\sigma}} \\
+         &= q(r^{0.5} + w^{0.5})^2 \\
+         &= q(r + 2\sqrt{vw} + w)
+\end{align*}
+
+
+Which is what we were asked to show. 

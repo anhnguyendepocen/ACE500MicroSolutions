@@ -26,10 +26,16 @@ $$ n =  1000$$
 
 b) Graphs: 1
 
+![](images/12_1.png)
 
 
 
-c) Graphs: 2
+
+
+c) Graphs: 2 
+
+![](images/12_2.png)
+
 
 $$99,900 = 160,000 - 10,000P$$
 
@@ -38,6 +44,9 @@ $$P = 6.01 $$
 If one firm sells nothing, other firm faced with demand: $P = 6.01$
 
 Graph 3
+
+![](images/12_3.png)
+
 
 $$100,200 = 160,000 - 10,000P $$
 
@@ -127,3 +136,126 @@ $$\frac{1}{2}=\frac{w}{q^2}$$
 
 $$q^2=2w$$
 $$q=\sqrt{2w}$$
+
+
+
+
+
+12.6)  
+
+$$STC = \frac{q^2}{2}+10q+5$$
+
+
+$$SMC = q+ 10$$
+a) Firm
+
+$$ p=SMC$$  
+
+$$p=q + 10  inverse supply$$  
+
+
+$$q =p-10 supply$$
+
+Industry: 100 firms =>  
+
+$$Q=100(P-10) supply$$
+
+b)Demand: 
+
+$$Q=1100-SOP$$  
+
+D=S =>  
+
+$$1100-SOP=100P-1000$$  
+
+
+$$2100 = 150P$$  
+
+$$$14=P^*$$  
+
+$$Q^*=1100-SO.14 = 400$$  
+
+$$q=4$$ 
+
+
+Firm's profit - p.q - STC(q)
+
+$$ =14(4) - (4\frac{2}{2}+10(4)+8)$$  
+
+  $$=56-53$$  
+  
+ $$\pi  firm = $3$$
+
+
+c) Figure 1 here
+
+![](images/12_Figure1.jpg) 
+
+
+
+PS of 1 firm is $\frac{1}{2}.4.4 = 8$ and there are 100 firms
+ Total PS = $$100.8 = $800$$
+
+d) Industry Profit $$= 100.3 = $300$$ 
+
+Short run fixed cost $$= 5.100 = $500 $$(5 from the non-variable part of the cost function)
+
+Industry Profit + SFC $$= 300 + 500 = 800 $$(Same as total PS)
+
+e) Now SMC - q +13
+
+$$p = q+13$$
+
+$$q-p-13$$ and$$ Q=100(p-13)$$
+
+Clear market S=D
+
+$$100(p-13)=1100-SOP$$  
+
+$$100p-1300=1100-SOP$$ 
+
+$$150P=2400$$  
+
+$$P=$16$$ 
+
+$$q=16-13-3$$  
+
+$$Q=100.3=300$$
+
+f) Figure 2 here
+
+![](images/12_Figure2.jpg)
+
+
+
+So incidence is shared \$1 by producer and \$2 by consumers.
+
+$$Q = 100(P-10)$$ 
+
+$$300=100(P-10)$$
+
+$$3=P-10$$
+$$13=P$$
+
+g) Figure 3 here
+
+![](images/12_Figure3.jpg)
+
+
+New PS =$$\frac{1}{2}3.3$$
+
+$$ = 9/2$$
+
+ Total industry PS $$ = 100.\frac{9}{2}$$ 
+ 
+$$ =$450$$
+ That makes a loss in PS of $$800 - 450 = $350$$
+
+New short and profit 
+
+$$ = 16.3 - ( \frac{3^2}{2} + 13.3 + 8)$$ 
+
+$$=48-48.5$$
+ $$= -0.50$$ per firm or \$-50 industry. This makes a change in profit of $$$300+$50 = $350$$ decrease, same as the reduction in total PS.
+Only MC makes for quality decisions, the tax affects MC not FC
+

@@ -54,16 +54,16 @@ $$P = 5.98$$
 
 If one firm instead sells 200.
 
-d)   
+d) Industry demand elasticity.   
 
 \begin{align*}
 e_{p,q} &= \frac{\Delta Q}{ \Delta P} \\
         &=\frac{dQ}{dP}*\frac{P}{Q} \\
-        &=\frac{50*6}{100,000} \\
-        &= -0.003
+        &=\frac{-10,000*6}{100,000} \\
+        &= -0.6
 \end{align*}
         
-Industry demand elasticity. Inelastic. Demand elasticity faces demand horizontal L=0
+Demand elasticity faced by an individual firm. Perfectly elastic (market is perfectly competitive).
 
 12.5)   
 
@@ -79,26 +79,25 @@ MC(q) &= q-10 \\
 \end{align*}
 
 $$AC(q) = \frac{q}{2}-10 + \frac{w}{q}$$
+Market supply can be expressed by: 
 
 $$Q= n*q = n(p+10)$$
 
-Clear Market:
+So the market clearing condition is:
 
 $$S=D$$
-
-Long run no profit: P=min of average cost  
-
-2 ways: MC=AC at min  
 
 \begin{align*}
 n(p+10) &= 1500-50p \\
 np+n*10 &=1500-50p \\
 (50+n)p &=1500-10n \\
-      p &=\frac{1500-10n}{50+n} \\
-(50+\frac{w}{4})P &=1500-\frac{10w}{4}
 \end{align*}
 
-Market clearing plus entrepreneur clearing $n=0.25w$  
+Subbing in the entreprenuer condition $n=0.25w$  
+
+\begin{align*}
+(50+\frac{w}{4})P &=1500-\frac{10w}{4}
+\end{align*}
 
 \begin{algin*}
 (200+w)P&=6000-10w \\
@@ -107,38 +106,21 @@ Market clearing plus entrepreneur clearing $n=0.25w$
 (200+w)\sqrt{2w}&=8000
 \end{algin*}  
 
-guess and verify $w=200$...  
-
-
-$$q=\sqrt{2*200}=20$$
-&  
-
-$$n=\frac{w}{4}=\frac{200}{4}=50$$
-
-&  
-
-$$p=q-10=20-10=10$$ 
-
-
-& 
-
-$$Q=n*q=1000$$  
-
-"Sorry, couldn't find a simpler way to solve for w aside from hard core algebra & factoring
+ 
+Now, from the no profit condition we know that the MC equals to the Average cost.
 
 $$q-10=\frac{q}{2}-10+\frac{w}{q}$$
+
 $$\frac{q}{2}=\frac{w}{q}$$
 $$q^2=2w$$
 $$q=\sqrt{2w}$$
-$$AC'(q)=\frac{1}{2}-\frac{w}{q^2}=0$$
+Then 
 
-$$\frac{1}{2}=\frac{w}{q^2}$$
+$$w = \frac{(p+10)^2}{2}$$
+Now we have found two equations with only $p$ and $w$ in it. Two equations in two unknowns should be possible to solve. 
 
-$$q^2=2w$$
-$$q=\sqrt{2w}$$
-
-
-
+$$[50 + \frac{(p+10)^2}{8}]p = 1500 - 10\frac{(p+10)^2}{2} $$
+Verify that $P=10$ solves this equation. Then it follows that $q=20$, $n=50$, $Q=1000$.
 
 
 12.6)  

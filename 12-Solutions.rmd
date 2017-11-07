@@ -114,7 +114,7 @@ $$q-10=\frac{q}{2}-10+\frac{w}{q}$$
 $$\frac{q}{2}=\frac{w}{q}$$
 $$q^2=2w$$
 $$q=\sqrt{2w}$$
-Then 
+Then subbing this into the $q=p+10$ equation, 
 
 $$w = \frac{(p+10)^2}{2}$$
 Now we have found two equations with only $p$ and $w$ in it. Two equations in two unknowns should be possible to solve. 

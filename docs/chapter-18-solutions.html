@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="chapter-2-solutions.html">
+<link rel="prev" href="chapter-15-solutions.html">
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -99,30 +99,84 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="homework-solutions-assignment" class="section level1 unnumbered">
-<h1>Homework Solutions Assignment</h1>
-<p>Currently, the solutions to our problem sets are handwritten by me, scanned to digital copies, and available to you on compass. The quality of these documents has been poor for a long time, and I have been meaning to type them up for years, but I cannot seem to find the time. Previous classes have suggested students could type up the solutions for extra credit. I have come to think this is a good idea.</p>
-<p><strong>Your Responsibility</strong></p>
-<p>I do not want you to spend a ton of time on this project; you will be busy enough with classes, exams, and regular homework. But, learning how to type up scientific documents is good training in and of itself. You must sign up for and type one homework solution. This assignment is worth 10% of your final grade.</p>
-<p><strong>Formatting the Document</strong></p>
-<p>For credit, you are required to type the documents in <a href="http://assemble.io/docs/Cheatsheet-Markdown.html">Markdown</a>. This is a simple alternative to <a href="https://www.latex-project.org/">Latex</a>, which has a pretty steep learning curve. What makes Markdown nice is that you can use latex if you want to, and math equations can be written in latex code and rendered by markdown. Just search ‘Latex Math’ and there are many cheat-sheets and lists of symbols. For example,<br />
-<code>$$E=MC^2$$      or     $$C=\pi R^2$$</code></p>
-<p>Becomes<br />
-<span class="math display">\[E=MC^2\]</span><br />
-or<br />
-<span class="math display">\[C=\pi R^2\]</span></p>
-<p><strong>Figures</strong></p>
-<p>Many of our problem sets will involve drawing figures. Please hand-draw the figures neatly with pen and paper. When you submit you will turn in a markdown document in .txt file format, a rendered .html , and any figure in format .jpg, .png. Simply take a photo of your hand drawn figure. Pictures can be included in markdown like this…<br />
-<code>![Caption](‘filepath-to-figure/figure1.jpg’)</code></p>
-<p>I’ll take care of code for figures when I put it up on the web. Instead of this, simply write something like…</p>
-<p>(figure 1 here)</p>
-<p>Directly in the markdown text.</p>
-<p><strong>Where to Typeset the Markdown Documents?</strong></p>
-<p>This website, <a href="https://stackedit.io/editor" class="uri">https://stackedit.io/editor</a>, is a free online Markdown editor. You just type on one left side, and you see the typeset version on the right. There is an ‘Export as’ button that allows you to export as .html. When you turn these in, please include the Markdown code in a .txt file, and a .html of the formatted document as well.</p>
-<p><strong>Assignment Due Date</strong></p>
-<p>Please go to the Homework Solution Assignment Wiki to sign up for which chapter you would like to type up. You are to turn in your documents to me via email by the day the chapter is scheduled on our syllabus. Sign-ups are first come first served.</p>
-<p><strong>Thinking Ahead</strong></p>
-<p>I have been interested in Reproducible Research for some time. You can write research papers in Markdown, with you statistical analysis woven directly into to the document so that your raw data gets processed to clean data, to analysis, to populating your paper with results, with a click of one button. That greatly reduces the likelihood of errors, and ensures that your future self will be able to go back and reproduce, or tweak your analysis without forgetting a bunch of steps in between. If you think this is a good idea, check out <a href="http://mindymallory.github.io/research-project-template/">a template</a> I wrote this template to help students get started writing papers in RMarkdown, and integrating statistical analysis directly into papers with <a href="https://www.r-project.org/">R</a>, <a href="https://www.rstudio.com/">RStudio</a>, and <a href="http://rmarkdown.rstudio.com/">RMarkdown</a>.</p>
+<div id="chapter-18-solutions" class="section level1 unnumbered">
+<h1>Chapter 18 Solutions</h1>
+<p><em>Contributed by Joseph Murrey and Yingjian Cao 2017</em></p>
+<p><strong>18.1</strong> Lawyer’s Optimal effort maximizes his surplus.</p>
+<p><span class="math display">\[\max_{l} \frac{1}{3}l-\frac{l^2}{2}\]</span></p>
+<p>FOC:</p>
+<p><span class="math inline">\(\frac{1}{3} - l = 0\)</span></p>
+<p><span class="math inline">\(\Rightarrow l = \frac{1}{3}\)</span></p>
+<p>Lawyer’s surplus: <span class="math inline">\((\frac{1}{3})^2 - \frac{1}{2}(\frac{1}{3})^2 = \frac{1}{18}\)</span></p>
+<p>Plaintiff’s surplus: <span class="math inline">\(l - \frac{1}{3}l = \frac{1}{3} -\frac{1}{3}*\frac{1}{3} = \frac{2}{9}\)</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li><span class="math display">\[\max_{c} cl - \frac{l^2}{2}\]</span></li>
+</ol>
+<p>FOC: <span class="math inline">\(c - l = 0\)</span></p>
+<p><span class="math inline">\(l^* = c\)</span></p>
+<p>Lawyer’s surplus: <span class="math inline">\(c^2 - \frac{1}{2}c^2 = \frac{1}{2}c^2\)</span></p>
+<p>Plaintiff’s surplus: <span class="math inline">\(l-cl=l(1-c)\)</span></p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>max plaintiff’s surplus, <span class="math display">\[\max_{c} (1-c)c\]</span></li>
+</ol>
+<p>FOC: <span class="math inline">\(1 - 2c = 0 \Rightarrow c^* = \frac{1}{2}\)</span></p>
+<p>Lawyer’s surplus: <span class="math inline">\(\frac{1}{2}(\frac{1}{2})^2 = \frac{1}{8}\)</span></p>
+<p>Plaintiff’s surplus: <span class="math inline">\(\frac{1}{2} - (\frac{1}{2})^2 = \frac{1}{4}\)</span></p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Lawyer’s surplus:</li>
+</ol>
+<p><span class="math display">\[\max_{l} cl - \frac{l^2}{2} - p\]</span></p>
+<p>FOC: <span class="math inline">\(c - l = 0 \Rightarrow l^* = c\)</span></p>
+<p>Plaintiff’s surplus: <span class="math inline">\(l - cl + p = c - c^2 + P\)</span></p>
+<p><span class="math display">\[\max_{c} c - c^2 + P\]</span></p>
+<p>s.t. <span class="math inline">\(cl - \frac{l^2}{2} - P \leq 0\)</span> Lawyer’s participation constraint</p>
+<p><span class="math display">\[\max_{c} c - c^2 + P\]</span><br />
+s.t. <span class="math inline">\(c^2 - \frac{c^2}{2} - P \leq 0\)</span></p>
+<p>Setting the inquality equal to 0, <span class="math inline">\(P = \frac{1}{2}c^2\)</span>. Now sub the condition from the participation constraint into the Plaintiff’s surplus. Then you can find the c that maximizes the plaintiff’s surplus given that he will take <span class="math inline">\(p = \frac{1}{2}c^2\)</span> upfront.</p>
+<p><span class="math display">\[\max_{c} c - c^2 + \frac{1}{2}c^2\]</span></p>
+<p>FOC: <span class="math inline">\(1 - 2c + c = 0 \Rightarrow 1 -c = 0 \Rightarrow c^* = 1\)</span></p>
+<p>Now calculating the surplus of laywer and plaintiff.</p>
+<p><span class="math inline">\(P = \frac{1}{2}\)</span><br />
+Lawyer surplus <span class="math inline">\(= 0\)</span></p>
+<p><strong>18.4</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math display">\[prem=\$5,000\]</span></li>
+</ol>
+<p><span class="math display">\[U=\ln(20,000-5,000)=9.616\]</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li><span class="math display">\[prem=\$2500\]</span></li>
+</ol>
+<p><span class="math display">\[EU=0.5\ln(20k-5k-2.5k)+0.5\ln(20k-2.5k)=9.602\]</span> (a) is better.</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li><span class="math display">\[prem=3500\]</span> <span class="math display">\[EU=0.5\ln(20k-3500-1750)+0.5\ln(20k-1750)=9.706\]</span> They would rather take more care and buy partial insurance.</li>
+</ol>
+<p>(Solution to this moral hazard problem has to get resort to share in the risk)</p>
+<p><strong>18.5</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li></li>
+</ol>
+<p>Lefties no ins</p>
+<p><span class="math display">\[EU=0.8\ln(9,000)+0.2\ln(10,000)=9.1261\]</span></p>
+<p>Righties no ins</p>
+<p><span class="math display">\[EU=0.2\ln(9,000)+0.8\ln(10,000)=9.1893\]</span></p>
+<p>L Premium:</p>
+<p><span class="math display">\[\ln(10,000-P_L)=9.1261\]</span></p>
+<p><span class="math display">\[P_L=\$807.897\]</span></p>
+<p>(monopolist gets max WTP)</p>
+<p>R Premium:</p>
+<p><span class="math display">\[\ln(10,000-P_R)=9.1893\]</span> <span class="math display">\[P_R=\$208\]</span></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li></li>
+</ol>
+<p><span class="math inline">\(\hspace{0.3cm}max\hspace{0.3cm}0.5(P_L-0.8\cdot1000)+0.5(P_R-0.2\cdot X_R)\)</span> (Insurers profit)</p>
+<p><span class="math inline">\(^{P_L,P_R,X_R}\)</span></p>
+<p>Subject to participation constraint for righties <span class="math display">\[0.2\ln(\$10k-P_R+X_R)+0.8\ln(\$10k-P_R)\geq0.91893\]</span></p>
+<p>(low risk participates)</p>
+<p>&amp;Incentive compatability constraint for lefties <span class="math display">\[\ln(10k-P_L)\geq0.2\ln(10k-P_R+X_R)+0.8\ln(10k-P_R)\]</span></p>
+<p><span class="math inline">\(^{full insurance designed for lefties}\hspace{1cm} ^{partial insurance designed for righties}\)</span></p>
+<p>Prices and coverage are such that high risk type does not even want to pretend to be low risk type.</p>
+<p>Notice that for moral hazard partial coverage corrected the bad behavior.</p>
+<p>Here full coverage for the high risk corrects the bad outcome (if prices &amp; coverage level set correctly).</p>
 
 </div>
             </section>
@@ -130,8 +184,8 @@ or<br />
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="chapter-2-solutions.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="chapter-15-solutions.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -160,7 +214,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/01Homework-Solutions-Assignment.RMD",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/18-Solutions.Rmd",
 "text": "Edit"
 },
 "download": ["ACE500-Homework.pdf", "ACE500-Homework.epub"],

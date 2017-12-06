@@ -1,0 +1,134 @@
+# Chapter 18 Solutions {-}
+
+*Contributed by Joseph Murrey and Yingjian Cao  2017*
+
+**18.1** Lawyer's Optimal effort maximizes his surplus.
+
+$$\max_{l} \frac{1}{3}l-\frac{l^2}{2}$$
+
+FOC:  
+
+$\frac{1}{3}  - l = 0$
+
+$\Rightarrow l = \frac{1}{3}$
+
+Lawyer's surplus: $(\frac{1}{3})^2 - \frac{1}{2}(\frac{1}{3})^2 = \frac{1}{18}$
+
+Plaintiff's surplus:    $l - \frac{1}{3}l = \frac{1}{3} -\frac{1}{3}*\frac{1}{3} = \frac{2}{9}$
+
+b) $$\max_{c} cl - \frac{l^2}{2}$$
+
+FOC:   $c - l = 0$
+
+$l^* = c$  
+
+Lawyer's surplus: $c^2 - \frac{1}{2}c^2 = \frac{1}{2}c^2$
+
+Plaintiff's surplus: $l-cl=l(1-c)$
+
+c) max plaintiff's surplus, $$\max_{c} (1-c)c$$
+
+FOC: $1 - 2c = 0 \Rightarrow c^* = \frac{1}{2}$
+
+Lawyer's surplus: $\frac{1}{2}(\frac{1}{2})^2 = \frac{1}{8}$
+
+Plaintiff's surplus: $\frac{1}{2} - (\frac{1}{2})^2 = \frac{1}{4}$
+
+d) Lawyer's surplus:
+
+$$\max_{l} cl - \frac{l^2}{2} - p$$ 
+
+FOC: $c - l = 0 \Rightarrow l^* = c$
+
+Plaintiff's surplus: $l - cl + p  = c - c^2 + P$
+
+$$\max_{c} c - c^2 + P$$   
+
+s.t. $cl - \frac{l^2}{2} - P \leq 0$  Lawyer's participation constraint
+
+$$\max_{c} c - c^2 + P$$   
+s.t. $c^2 - \frac{c^2}{2} - P \leq 0$
+
+Setting the inquality equal to 0, $P = \frac{1}{2}c^2$. Now sub the condition from the participation constraint into the Plaintiff's surplus. Then you can find the c that maximizes the plaintiff's surplus given that he will take $p = \frac{1}{2}c^2$ upfront. 
+
+$$\max_{c} c - c^2 + \frac{1}{2}c^2$$
+
+FOC: $1 - 2c + c = 0 \Rightarrow    1 -c = 0 \Rightarrow c^* = 1$
+
+Now calculating the surplus of laywer and plaintiff.
+
+$P = \frac{1}{2}$   
+Lawyer surplus $= 0$
+
+
+
+
+
+**18.4**  
+
+(a)  
+$$prem=\$5,000$$
+
+$$U=\ln(20,000-5,000)=9.616$$
+
+(b)  
+$$prem=\$2500$$
+
+$$EU=0.5\ln(20k-5k-2.5k)+0.5\ln(20k-2.5k)=9.602$$
+\hspace{1.5cm}(a) is better.
+
+(c)
+$$prem=3500$$
+$$EU=0.5\ln(20k-3500-1750)+0.5\ln(20k-1750)=9.706$$
+\hspace{1.5cm}They would rather take more care and buy partial insurance.
+
+(Solution to this moral hazard problem has to get resort to share in the risk)
+
+**18.5**  
+
+(a)  
+
+Lefties no ins   
+
+$$EU=0.8\ln(9,000)+0.2\ln(10,000)=9.1261$$
+
+Righties no ins  
+
+$$EU=0.2\ln(9,000)+0.8\ln(10,000)=9.1893$$
+
+
+L Premium: 
+
+$$\ln(10,000-P_L)=9.1261$$
+
+$$P_L=\$807.897$$
+
+(monopolist gets max WTP)
+
+R Premium:
+
+$$\ln(10,000-P_R)=9.1893$$
+$$P_R=\$208$$
+
+(b)
+
+$\hspace{0.3cm}max\hspace{0.3cm}0.5(P_L-0.8\cdot1000)+0.5(P_R-0.2\cdot X_R)$ (Insurers profit)
+
+$^{P_L,P_R,X_R}$
+
+Subject to participation constraint for righties
+$$0.2\ln(\$10k-P_R+X_R)+0.8\ln(\$10k-P_R)\geq0.91893$$
+
+(low risk participates)
+
+\&Incentive compatability constraint for lefties 
+$$\ln(10k-P_L)\geq0.2\ln(10k-P_R+X_R)+0.8\ln(10k-P_R)$$
+
+$^{full insurance designed for lefties}\hspace{1cm} ^{partial insurance designed for righties}$
+
+Prices and coverage are such that high risk type does not even want to pretend to be low risk type.
+
+Notice that for moral hazard partial coverage corrected the bad behavior.
+
+Here full coverage for the high risk corrects the bad outcome (if prices \& coverage level set correctly).
+
